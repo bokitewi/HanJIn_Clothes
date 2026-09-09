@@ -1,0 +1,23 @@
+pdxmesh = {
+	name = "m_hair_hd_frontier_xianbei_braids_mesh"
+	file = "m_hair_hd_frontier_xianbei_braids.mesh"
+	blend_shape = { id = "m_hair_hd_frontier_xianbei_braids_bs_fat" type = "m_hair_hd_frontier_xianbei_braids_bs_fat.mesh" }
+	meshsettings = {
+		name = "ff_h_xianbei_braids_hair_1_22067692Shape"
+		index = 0
+		texture_diffuse = "tex_f00cc1088020d242_diffuse.dds"
+		texture_normal = "tex_f00cc1088020d242_normal.dds"
+		texture_specular = "tex_f00cc1088020d242_properties.dds"
+		texture = { file = "gfx/models/portraits/black_ssao_color.dds" index = 3 }
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+}
+entity = {
+	name = "m_hair_hd_frontier_xianbei_braids_entity"
+	pdxmesh = "m_hair_hd_frontier_xianbei_braids_mesh"
+	attribute = { name = "bs_fat_1" blend_shape = "m_hair_hd_frontier_xianbei_braids_bs_fat" }
+	game_data = { portrait_entity_user_data = { color_mask_remap_interval = { interval = { 0.0 1.0 } } } }
+}

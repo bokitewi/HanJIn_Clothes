@@ -1,0 +1,19 @@
+﻿pattern_textures = {
+    name = "hd_ten_equipment_plain_textures"
+    colormask = "gfx/portraits/accessory_variations/textures/hd_ten_equipment/hd_ten_equipment_plain_color_masks.dds"
+    normal = "gfx/portraits/accessory_variations/textures/hd_ten_equipment/hd_ten_equipment_plain_normal.dds"
+    properties = "gfx/portraits/accessory_variations/textures/hd_ten_equipment/hd_ten_equipment_plain_properties.dds"
+}
+variation = {
+    name = "hd_ten_equipment_plain"
+    pattern = {
+        weight = 1
+        r = { textures = "hd_ten_equipment_plain_textures" layout = "plain_fabric_layout" }
+        g = { textures = "hd_ten_equipment_plain_textures" layout = "plain_fabric_layout" }
+        b = { textures = "hd_ten_equipment_plain_textures" layout = "plain_fabric_layout" }
+        a = { textures = "hd_ten_equipment_plain_textures" layout = "plain_fabric_layout" }
+        properties_r = { textures = "hd_ten_equipment_plain_textures" layout = "plain_fabric_layout" }
+        normal_b = { textures = "hd_ten_equipment_plain_textures" layout = "plain_fabric_layout" }
+    }
+    color_palette = { weight = 1 texture = "gfx/portraits/accessory_variations/textures/color_palette_tgp_chinese_war_nobility_01.dds" }
+}

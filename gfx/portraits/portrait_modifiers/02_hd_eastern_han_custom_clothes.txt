@@ -1,0 +1,470 @@
+﻿hd_eastern_han_custom_clothes = {
+	usage = customization
+	interface_position = 2
+
+	m_clothes_sec_hd_eastern_han_com_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_commoner_clothes
+				accessory = m_clothes_sec_hd_eastern_han_com_01
+				type = male
+			}
+		}
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+			culture = { has_cultural_pillar = heritage_chinese }
+			current_year >= 1
+			current_year < 601
+			is_male = yes
+		}
+	}
+
+	f_clothes_sec_hd_eastern_han_com_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_commoner_clothes
+				accessory = f_clothes_sec_hd_eastern_han_com_01
+				type = female
+			}
+		}
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+			culture = { has_cultural_pillar = heritage_chinese }
+			current_year >= 1
+			current_year < 601
+			is_female = yes
+		}
+	}
+
+	m_clothes_sec_hd_eastern_han_nob_01_lo = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_low_nobility_clothes
+				accessory = m_clothes_sec_hd_eastern_han_nob_01_lo
+				type = male
+			}
+		}
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+			culture = { has_cultural_pillar = heritage_chinese }
+			current_year >= 1
+			current_year < 601
+			is_male = yes
+		}
+	}
+
+	m_clothes_sec_hd_eastern_han_nob_daily_zhiju_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_nob_daily_zhiju_01
+				accessory = m_clothes_sec_hd_eastern_han_nob_daily_zhiju_01
+				type = male
+			}
+		}
+		is_valid_custom = {
+			is_male = yes
+			is_adult = yes
+		}
+	}
+
+	m_clothes_sec_hd_eastern_han_official_robe_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_official_robe_01
+				accessory = m_clothes_sec_hd_eastern_han_official_robe_01
+				type = male
+			}
+		}
+		is_valid_custom = {
+			is_male = yes
+			is_adult = yes
+		}
+	}
+
+	f_clothes_sec_hd_eastern_han_nob_01_lo = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_low_nobility_clothes
+				accessory = f_clothes_sec_hd_eastern_han_nob_01_lo
+				type = female
+			}
+		}
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+			culture = { has_cultural_pillar = heritage_chinese }
+			current_year >= 1
+			current_year < 601
+			is_female = yes
+		}
+	}
+
+	m_clothes_sec_hd_eastern_han_nob_01_hi = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_high_nobility_clothes
+				accessory = m_clothes_sec_hd_eastern_han_nob_01_hi
+				type = male
+			}
+		}
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+			culture = { has_cultural_pillar = heritage_chinese }
+			current_year >= 1
+			current_year < 601
+			is_male = yes
+		}
+	}
+
+	f_clothes_sec_hd_eastern_han_nob_01_hi = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_high_nobility_clothes
+				accessory = f_clothes_sec_hd_eastern_han_nob_01_hi
+				type = female
+			}
+		}
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+			culture = { has_cultural_pillar = heritage_chinese }
+			current_year >= 1
+			current_year < 601
+			is_female = yes
+		}
+	}
+
+	m_clothes_sec_hd_eastern_han_official_civil_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_official_clothes
+				accessory = m_clothes_sec_hd_eastern_han_official_civil_01
+				type = male
+			}
+		}
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+			culture = { has_cultural_pillar = heritage_chinese }
+			current_year >= 1
+			current_year < 601
+			is_male = yes
+		}
+	}
+
+	m_clothes_sec_hd_eastern_han_official_military_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_official_clothes
+				accessory = m_clothes_sec_hd_eastern_han_official_military_01
+				type = male
+			}
+		}
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+			culture = { has_cultural_pillar = heritage_chinese }
+			current_year >= 1
+			current_year < 601
+			is_male = yes
+		}
+	}
+
+	m_clothes_hd_yulin_chest_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_yulin_chest_01
+				accessory = m_clothes_hd_yulin_chest_01
+				type = male
+			}
+		}
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+			is_male = yes
+			is_adult = yes
+		}
+	}
+
+	m_clothes_hd_historic_sabre_light_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_historic_sabre_light_01
+				accessory = m_clothes_hd_historic_sabre_light_01
+				type = male
+			}
+		}
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+			is_male = yes
+			is_adult = yes
+		}
+	}
+	m_clothes_hd_historic_axe_band_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_historic_axe_band_01
+				accessory = m_clothes_hd_historic_axe_band_01
+				type = male
+			}
+		}
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+			is_male = yes
+			is_adult = yes
+		}
+	}
+
+
+	m_clothes_hd_historic_jian_guards_01 = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_historic_jian_guards_01 type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+	m_clothes_hd_historic_heaven_guards_01 = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_historic_heaven_guards_01 type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+	m_clothes_hd_historic_spear_guards_01 = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_historic_spear_guards_01 type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+	m_clothes_hd_historic_formation_breakers_01 = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_historic_formation_breakers_01 type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+	m_clothes_hd_belka_guan_yu_01 = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_belka_guan_yu_01 type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+	m_clothes_hd_belka_lu_bu_01 = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_belka_lu_bu_01 type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+
+	m_clothes_hd_historic_sabre_infantry_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_historic_sabre_infantry_01
+				accessory = m_clothes_hd_historic_sabre_infantry_01
+				type = male
+			}
+		}
+		is_valid_custom = {
+			has_tgp_dlc_trigger = yes
+			is_male = yes
+			is_adult = yes
+		}
+	}
+
+	m_clothes_hd_eastern_han_armor_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_armor_01
+				accessory = m_clothes_hd_eastern_han_armor_01
+				type = male
+			}
+		}
+		is_valid_custom = {
+			is_male = yes
+			is_adult = yes
+		}
+	}
+	m_clothes_hd_eastern_han_armor_02 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_armor_02
+				accessory = m_clothes_hd_eastern_han_armor_02
+				type = male
+			}
+		}
+		is_valid_custom = {
+			is_male = yes
+			is_adult = yes
+		}
+	}
+	m_clothes_hd_eastern_han_armor_03 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_armor_03
+				accessory = m_clothes_hd_eastern_han_armor_03
+				type = male
+			}
+		}
+		is_valid_custom = {
+			is_male = yes
+			is_adult = yes
+		}
+	}
+
+
+
+
+	m_clothes_hd_eastern_han_armor_01_full_set = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_armor_01
+				accessory = m_clothes_hd_eastern_han_armor_01
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = hd_eastern_han_armor_headgear
+				accessory = m_headgear_hd_eastern_han_armor_01
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = hd_eastern_han_armor_01
+				accessory = m_legwear_hd_eastern_han_armor_01
+				type = male
+			}
+		}
+		is_valid_custom = {
+			is_male = yes
+			is_adult = yes
+		}
+	}
+
+	m_clothes_hd_eastern_han_armor_02_full_set = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_armor_02
+				accessory = m_clothes_hd_eastern_han_armor_02
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = hd_eastern_han_armor_headgear
+				accessory = m_headgear_hd_eastern_han_armor_02
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = hd_eastern_han_armor_02
+				accessory = m_legwear_hd_eastern_han_armor_02
+				type = male
+			}
+		}
+		is_valid_custom = {
+			is_male = yes
+			is_adult = yes
+		}
+	}
+
+	m_clothes_hd_eastern_han_armor_03_full_set = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_eastern_han_armor_03
+				accessory = m_clothes_hd_eastern_han_armor_03
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = hd_eastern_han_armor_headgear
+				accessory = m_headgear_hd_eastern_han_armor_03
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = hd_eastern_han_armor_03
+				accessory = m_legwear_hd_eastern_han_armor_03
+				type = male
+			}
+		}
+		is_valid_custom = {
+			is_male = yes
+			is_adult = yes
+		}
+	}
+
+
+
+
+
+
+	m_clothes_hd_frontier_xiongnu_coat = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xiongnu_coat type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+	m_clothes_hd_frontier_xiongnu_coat_shoulder = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xiongnu_coat_shoulder type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+	m_clothes_hd_frontier_xiongnu_heavy_dark = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xiongnu_heavy_dark type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+	m_clothes_hd_frontier_xiongnu_noble = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xiongnu_noble type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+	m_clothes_hd_frontier_xianbei_archer_panel_shoulder = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xianbei_archer_panel_shoulder type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+	m_clothes_hd_frontier_xianbei_archer_lamellar_shoulder = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xianbei_archer_lamellar_shoulder type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+	m_clothes_hd_frontier_xianbei_rider_disc = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xianbei_rider_disc type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+	m_clothes_hd_frontier_nanman_wrap = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_nanman_wrap type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+	m_clothes_hd_frontier_nanman_shoulder = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_nanman_shoulder type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+	m_clothes_hd_frontier_crossbow_scale = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_crossbow_scale type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+	m_clothes_hd_frontier_yellow_shoulders = {
+		dna_modifiers = { accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_yellow_shoulders type = male } }
+		is_valid_custom = { has_tgp_dlc_trigger = yes is_male = yes is_adult = yes }
+	}
+}

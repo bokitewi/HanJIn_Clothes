@@ -1,0 +1,380 @@
+﻿# 1—700 年成年男性战争整套池。相同 priority 下在原版 04_clothes / 04_headgear 之后应用。
+# 每个套装的戴盔与保留头饰分支互斥，所有有效候选权重均为 50。
+# 不添加通用 outfit_tags，防止事件标签把文化、年龄或日期不符的候选强制设为有效。
+hd_early_era_armor = {
+
+	# 事件强制服饰时只让位，不写入任何基因；零权重被标签激活也不会跨文化分配。
+	hd_early_era_armor_preserve_event_outfit = {
+		dna_modifiers = { }
+		outfit_tags = { bishop_outfit monk_outfit priest_outfit religious_zoroastrian_high_clothes rank_headgear beggar_rags hajj_clothes mena_stealth jester_outfit mena_stealth_hood spectacles_outfit spouse_outfit western_stealth western_stealth_hood imaginary_friend_adult imaginary_friend_child nightgown no_clothes no_headgear }
+		weight = { base = 0 }
+	}
+	usage = game
+	selection_behavior = weighted_random
+	priority = 4
+
+	# chinese low
+	hd_war_chinese_yellow_shoulders = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_yellow_shoulders type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xiongnu_boots_2 type = male }
+			accessory = { mode = add gene = headgear template = hd_frontier_equipment accessory = m_headgear_hd_frontier_yellow_headwrap_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_low_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_chinese_yellow_shoulders_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_yellow_shoulders type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xiongnu_boots_2 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_low_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+	hd_war_chinese_axe_band = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_historic_axe_band_01 accessory = m_clothes_hd_historic_axe_band_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_historic_axe_band_01 accessory = m_legwear_hd_historic_axe_band_01 type = male }
+			accessory = { mode = add gene = headgear template = hd_historic_sabre_militia_wrap_01 accessory = m_headgear_hd_historic_sabre_militia_wrap_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_low_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_chinese_axe_band_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_historic_axe_band_01 accessory = m_clothes_hd_historic_axe_band_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_historic_axe_band_01 accessory = m_legwear_hd_historic_axe_band_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_low_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+	hd_war_chinese_sabre_light = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_historic_sabre_light_01 accessory = m_clothes_hd_historic_sabre_light_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_historic_sabre_light_01 accessory = m_legwear_hd_historic_sabre_light_01 type = male }
+			accessory = { mode = add gene = headgear template = hd_historic_sabre_light_01 accessory = m_headgear_hd_historic_sabre_light_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_low_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_chinese_sabre_light_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_historic_sabre_light_01 accessory = m_clothes_hd_historic_sabre_light_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_historic_sabre_light_01 accessory = m_legwear_hd_historic_sabre_light_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_low_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+
+	# chinese mid
+	hd_war_chinese_crossbow_scale = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_crossbow_scale type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xianbei_rider type = male }
+			accessory = { mode = add gene = headgear template = hd_frontier_equipment accessory = m_headgear_hd_frontier_crossbow_cap type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_mid_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_chinese_crossbow_scale_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_crossbow_scale type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xianbei_rider type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_mid_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+	hd_war_chinese_jian_guards = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_historic_jian_guards_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_ten_equipment accessory = m_legwear_hd_historic_jian_guards_01 type = male }
+			accessory = { mode = add gene = headgear template = hd_ten_equipment accessory = m_headgear_hd_historic_jian_guards_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_mid_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_chinese_jian_guards_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_historic_jian_guards_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_ten_equipment accessory = m_legwear_hd_historic_jian_guards_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_mid_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+	hd_war_chinese_spear_guards = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_historic_spear_guards_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_historic_sabre_light_01 accessory = m_legwear_hd_historic_sabre_light_01 type = male }
+			accessory = { mode = add gene = headgear template = hd_ten_equipment accessory = m_headgear_hd_historic_spear_guards_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_mid_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_chinese_spear_guards_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_historic_spear_guards_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_historic_sabre_light_01 accessory = m_legwear_hd_historic_sabre_light_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_mid_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+
+	# chinese high
+	hd_war_chinese_yulin = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_yulin_chest_01 accessory = m_clothes_hd_yulin_chest_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_ten_equipment accessory = m_legwear_hd_yulin_lancer_01 type = male }
+			accessory = { mode = add gene = headgear template = hd_yulin_helmet_01 accessory = m_headgear_hd_yulin_helmet_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_high_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_chinese_yulin_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_yulin_chest_01 accessory = m_clothes_hd_yulin_chest_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_ten_equipment accessory = m_legwear_hd_yulin_lancer_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_high_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+	hd_war_chinese_formation_breakers = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_historic_formation_breakers_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_ten_equipment accessory = m_legwear_hd_historic_formation_breakers_01 type = male }
+			accessory = { mode = add gene = headgear template = hd_ten_equipment accessory = m_headgear_hd_historic_formation_breakers_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_high_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_chinese_formation_breakers_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_historic_formation_breakers_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_ten_equipment accessory = m_legwear_hd_historic_formation_breakers_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_high_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+	hd_war_chinese_heaven_guards = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_historic_heaven_guards_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_ten_equipment accessory = m_legwear_hd_historic_heaven_guards_01 type = male }
+			accessory = { mode = add gene = headgear template = hd_ten_equipment accessory = m_headgear_hd_historic_heaven_guards_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_high_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_chinese_heaven_guards_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_historic_heaven_guards_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_ten_equipment accessory = m_legwear_hd_historic_heaven_guards_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_high_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+	hd_war_chinese_eastern_han_01 = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_eastern_han_armor_01 accessory = m_clothes_hd_eastern_han_armor_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_eastern_han_armor_01 accessory = m_legwear_hd_eastern_han_armor_01 type = male }
+			accessory = { mode = add gene = headgear template = hd_eastern_han_armor_headgear accessory = m_headgear_hd_eastern_han_armor_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_high_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_chinese_eastern_han_01_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_eastern_han_armor_01 accessory = m_clothes_hd_eastern_han_armor_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_eastern_han_armor_01 accessory = m_legwear_hd_eastern_han_armor_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_high_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+
+	# chinese knight
+	hd_war_chinese_lu_bu = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_belka_lu_bu_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_ten_equipment accessory = m_legwear_hd_belka_lu_bu_01 type = male }
+			accessory = { mode = add gene = headgear template = hd_ten_equipment accessory = m_headgear_hd_belka_lu_bu_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_knight_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_chinese_lu_bu_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_belka_lu_bu_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_ten_equipment accessory = m_legwear_hd_belka_lu_bu_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_knight_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+	hd_war_chinese_guan_yu = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_belka_guan_yu_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_ten_equipment accessory = m_legwear_hd_belka_guan_yu_01 type = male }
+			accessory = { mode = add gene = headgear template = hd_ten_equipment accessory = m_headgear_hd_belka_guan_yu_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_knight_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_chinese_guan_yu_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_ten_equipment accessory = m_clothes_hd_belka_guan_yu_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_ten_equipment accessory = m_legwear_hd_belka_guan_yu_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_knight_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+	hd_war_chinese_zhang_fei = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_eastern_han_armor_02 accessory = m_clothes_hd_eastern_han_armor_02 type = male }
+			accessory = { mode = add gene = legwear template = hd_eastern_han_armor_02 accessory = m_legwear_hd_eastern_han_armor_02 type = male }
+			accessory = { mode = add gene = headgear template = hd_eastern_han_armor_headgear accessory = m_headgear_hd_eastern_han_armor_02 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_knight_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_chinese_zhang_fei_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_eastern_han_armor_02 accessory = m_clothes_hd_eastern_han_armor_02 type = male }
+			accessory = { mode = add gene = legwear template = hd_eastern_han_armor_02 accessory = m_legwear_hd_eastern_han_armor_02 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_knight_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+	hd_war_chinese_gongsun_zan = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_eastern_han_armor_03 accessory = m_clothes_hd_eastern_han_armor_03 type = male }
+			accessory = { mode = add gene = legwear template = hd_eastern_han_armor_03 accessory = m_legwear_hd_eastern_han_armor_03 type = male }
+			accessory = { mode = add gene = headgear template = hd_eastern_han_armor_headgear accessory = m_headgear_hd_eastern_han_armor_03 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_knight_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_chinese_gongsun_zan_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_eastern_han_armor_03 accessory = m_clothes_hd_eastern_han_armor_03 type = male }
+			accessory = { mode = add gene = legwear template = hd_eastern_han_armor_03 accessory = m_legwear_hd_eastern_han_armor_03 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_knight_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+
+	# southern low
+
+	# southern mid
+	hd_war_southern_nanman_wrap = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_nanman_wrap type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_nanman_tall type = male }
+			accessory = { mode = add gene = headgear template = hd_frontier_equipment accessory = m_headgear_hd_frontier_nanman_knot type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_southern_trigger = yes hd_early_era_mid_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_southern_nanman_wrap_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_nanman_wrap type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_nanman_tall type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_southern_trigger = yes hd_early_era_mid_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+
+	# southern frontier_high
+	hd_war_southern_nanman_shoulder = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_nanman_shoulder type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_nanman_bamboo type = male }
+			accessory = { mode = add gene = headgear template = hd_frontier_equipment accessory = m_headgear_hd_frontier_nanman_knot type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_southern_trigger = yes hd_early_era_frontier_high_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_southern_nanman_shoulder_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_nanman_shoulder type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_nanman_bamboo type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_southern_trigger = yes hd_early_era_frontier_high_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+
+	# northern low
+	hd_war_northern_xiongnu_coat = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xiongnu_coat type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xiongnu_boots_1 type = male }
+			accessory = { mode = add gene = headgear template = hd_frontier_equipment accessory = m_headgear_hd_frontier_xiongnu_pointed type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_northern_trigger = yes hd_early_era_low_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_northern_xiongnu_coat_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xiongnu_coat type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xiongnu_boots_1 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_northern_trigger = yes hd_early_era_low_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+
+	# northern mid
+	hd_war_northern_xiongnu_coat_shoulder = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xiongnu_coat_shoulder type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xiongnu_boots_1 type = male }
+			accessory = { mode = add gene = headgear template = hd_frontier_equipment accessory = m_headgear_hd_frontier_xiongnu_pointed type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_northern_trigger = yes hd_early_era_mid_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_northern_xiongnu_coat_shoulder_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xiongnu_coat_shoulder type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xiongnu_boots_1 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_northern_trigger = yes hd_early_era_mid_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+	hd_war_northern_xianbei_panel_shoulder = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xianbei_archer_panel_shoulder type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xianbei_archer type = male }
+			accessory = { mode = add gene = headgear template = hd_frontier_equipment accessory = m_headgear_hd_frontier_xianbei_cone type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_northern_trigger = yes hd_early_era_mid_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_northern_xianbei_panel_shoulder_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xianbei_archer_panel_shoulder type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xianbei_archer type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_northern_trigger = yes hd_early_era_mid_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+	hd_war_northern_xianbei_lamellar_shoulder = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xianbei_archer_lamellar_shoulder type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xianbei_archer type = male }
+			accessory = { mode = add gene = headgear template = hd_frontier_equipment accessory = m_headgear_hd_frontier_xianbei_cone type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_northern_trigger = yes hd_early_era_mid_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_northern_xianbei_lamellar_shoulder_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xianbei_archer_lamellar_shoulder type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xianbei_archer type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_northern_trigger = yes hd_early_era_mid_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+
+	# northern frontier_high
+	hd_war_northern_xiongnu_heavy_dark = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xiongnu_heavy_dark type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xiongnu_heavy type = male }
+			accessory = { mode = add gene = headgear template = hd_frontier_equipment accessory = m_headgear_hd_frontier_xiongnu_iron type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_northern_trigger = yes hd_early_era_frontier_high_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_northern_xiongnu_heavy_dark_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xiongnu_heavy_dark type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xiongnu_heavy type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_northern_trigger = yes hd_early_era_frontier_high_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+	hd_war_northern_xianbei_rider_disc = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xianbei_rider_disc type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xianbei_rider type = male }
+			accessory = { mode = add gene = headgear template = hd_frontier_equipment accessory = m_headgear_hd_frontier_xianbei_iron type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_northern_trigger = yes hd_early_era_frontier_high_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_northern_xianbei_rider_disc_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xianbei_rider_disc type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xianbei_rider type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_northern_trigger = yes hd_early_era_frontier_high_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+	hd_war_northern_xiongnu_noble = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xiongnu_noble type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xiongnu_noble type = male }
+			accessory = { mode = add gene = headgear template = hd_frontier_equipment accessory = m_headgear_hd_frontier_xiongnu_crown type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_northern_trigger = yes hd_early_era_frontier_high_armor_trigger = yes hd_early_era_helmet_trigger = yes } }
+	}
+	hd_war_northern_xiongnu_noble_keep_headgear = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_frontier_equipment accessory = m_clothes_hd_frontier_xiongnu_noble type = male }
+			accessory = { mode = add gene = legwear template = hd_frontier_equipment accessory = m_legwear_hd_frontier_xiongnu_noble type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_northern_trigger = yes hd_early_era_frontier_high_armor_trigger = yes hd_early_era_helmet_trigger = no } }
+	}
+}

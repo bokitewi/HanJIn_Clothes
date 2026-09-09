@@ -1,0 +1,165 @@
+pdxmesh = {
+	name = "m_clothes_hd_belka_guan_yu_01_mesh"
+	file = "m_clothes_hd_belka_guan_yu_01.mesh"
+	blend_shape = { id = "m_clothes_hd_belka_guan_yu_01_bs_fat" type = "m_clothes_hd_belka_guan_yu_01_bs_fat.mesh" }
+	blend_shape = { id = "m_clothes_hd_belka_guan_yu_01_bs_gaunt" type = "m_clothes_hd_belka_guan_yu_01_bs_gaunt.mesh" }
+	blend_shape = { id = "m_clothes_hd_belka_guan_yu_01_bs_musc" type = "m_clothes_hd_belka_guan_yu_01_bs_musc.mesh" }
+	blend_shape = { id = "m_clothes_hd_belka_guan_yu_01_bs_old" type = "m_clothes_hd_belka_guan_yu_01_bs_old.mesh" }
+	blend_shape = { id = "m_clothes_hd_belka_guan_yu_01_bs_dwarf" type = "m_clothes_hd_belka_guan_yu_01_bs_dwarf.mesh" }
+	meshsettings = {
+		name = "m_clothes_hd_belka_guan_yu_01_sleevesShape"
+		index = 0
+		texture_diffuse = "tex_e2436edd34832ad8_diffuse.dds"
+		texture_normal = "tex_e2436edd34832ad8_normal.dds"
+		texture_specular = "tex_e2436edd34832ad8_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_guan_yu_01_hemShape"
+		index = 0
+		texture_diffuse = "tex_8c3b14923047e511_diffuse.dds"
+		texture_normal = "tex_8c3b14923047e511_normal.dds"
+		texture_specular = "tex_8c3b14923047e511_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_guan_yu_01_chestShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_belka_guan_yu_01__tex_3d9824da77ddcaf0_diffuse.dds"
+		texture_normal = "m_clothes_hd_belka_guan_yu_01__tex_3d9824da77ddcaf0_normal.dds"
+		texture_specular = "m_clothes_hd_belka_guan_yu_01__tex_3d9824da77ddcaf0_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_guan_yu_01_bracerShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_belka_guan_yu_01__tex_94f2bfaf50b44baa_diffuse.dds"
+		texture_normal = "m_clothes_hd_belka_guan_yu_01__tex_94f2bfaf50b44baa_normal.dds"
+		texture_specular = "m_clothes_hd_belka_guan_yu_01__tex_94f2bfaf50b44baa_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_guan_yu_01_shoulderShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_belka_guan_yu_01__tex_7703c7ca38f520f9_diffuse.dds"
+		texture_normal = "m_clothes_hd_belka_guan_yu_01__tex_7703c7ca38f520f9_normal.dds"
+		texture_specular = "m_clothes_hd_belka_guan_yu_01__tex_7703c7ca38f520f9_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_guan_yu_01_shoulder_2Shape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_belka_guan_yu_01__tex_24e4ae1cb582dee8_diffuse.dds"
+		texture_normal = "m_clothes_hd_belka_guan_yu_01__tex_24e4ae1cb582dee8_normal.dds"
+		texture_specular = "m_clothes_hd_belka_guan_yu_01__tex_24e4ae1cb582dee8_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_guan_yu_01_collar_armorShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_belka_guan_yu_01__tex_30067b438050b70c_diffuse.dds"
+		texture_normal = "m_clothes_hd_belka_guan_yu_01__tex_30067b438050b70c_normal.dds"
+		texture_specular = "m_clothes_hd_belka_guan_yu_01__tex_30067b438050b70c_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_guan_yu_01_collar_armor_2Shape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_belka_guan_yu_01__tex_5a53be1ff9df483e_diffuse.dds"
+		texture_normal = "m_clothes_hd_belka_guan_yu_01__tex_5a53be1ff9df483e_normal.dds"
+		texture_specular = "m_clothes_hd_belka_guan_yu_01__tex_5a53be1ff9df483e_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_guan_yu_01_skirtShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_belka_guan_yu_01__tex_fbc3b551f140f660_diffuse.dds"
+		texture_normal = "m_clothes_hd_belka_guan_yu_01__tex_fbc3b551f140f660_normal.dds"
+		texture_specular = "m_clothes_hd_belka_guan_yu_01__tex_fbc3b551f140f660_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_guan_yu_01_skirt_2Shape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_belka_guan_yu_01__tex_5661296dca8c74fa_diffuse.dds"
+		texture_normal = "m_clothes_hd_belka_guan_yu_01__tex_5661296dca8c74fa_normal.dds"
+		texture_specular = "m_clothes_hd_belka_guan_yu_01__tex_5661296dca8c74fa_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_guan_yu_01_skirt_3Shape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_belka_guan_yu_01__tex_a194012812921e5a_diffuse.dds"
+		texture_normal = "m_clothes_hd_belka_guan_yu_01__tex_a194012812921e5a_normal.dds"
+		texture_specular = "m_clothes_hd_belka_guan_yu_01__tex_a194012812921e5a_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_guan_yu_01_skirt_4Shape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_belka_guan_yu_01__tex_a194012812921e5a_diffuse.dds"
+		texture_normal = "m_clothes_hd_belka_guan_yu_01__tex_a194012812921e5a_normal.dds"
+		texture_specular = "m_clothes_hd_belka_guan_yu_01__tex_a194012812921e5a_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_guan_yu_01_beltShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_belka_guan_yu_01__tex_71451494b1d7456c_diffuse.dds"
+		texture_normal = "m_clothes_hd_belka_guan_yu_01__tex_71451494b1d7456c_normal.dds"
+		texture_specular = "m_clothes_hd_belka_guan_yu_01__tex_71451494b1d7456c_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+}
+entity = {
+	name = "m_clothes_hd_belka_guan_yu_01_entity"
+	pdxmesh = "m_clothes_hd_belka_guan_yu_01_mesh"
+	attribute = { name = "bs_body_fat_1" blend_shape = "m_clothes_hd_belka_guan_yu_01_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1" blend_shape = "m_clothes_hd_belka_guan_yu_01_bs_gaunt" }
+	attribute = { name = "bs_body_muscular_1" blend_shape = "m_clothes_hd_belka_guan_yu_01_bs_musc" }
+	attribute = { name = "bs_body_old_1" blend_shape = "m_clothes_hd_belka_guan_yu_01_bs_old" }
+	attribute = { name = "bs_body_dwarf_1" blend_shape = "m_clothes_hd_belka_guan_yu_01_bs_dwarf" }
+	game_data = { portrait_entity_user_data = { portrait_accessory = {
+		pattern_mask = "gfx/models/portraits/m_clothes/hd_belka_guan_yu_01/m_clothes_hd_belka_guan_yu_01_pattern_masks.dds"
+		variation = "hd_ten_equipment_plain"
+	} } }
+}

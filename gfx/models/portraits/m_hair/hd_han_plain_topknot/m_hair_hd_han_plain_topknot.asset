@@ -1,0 +1,40 @@
+﻿pdxmesh = {
+	name = "m_hair_hd_han_plain_topknot_mesh"
+	file = "m_hair_hd_han_plain_topknot.mesh"
+	blend_shape = { id = "hd_han_plain_topknot_fat" type = "m_hair_hd_han_plain_topknot_bs_fat.mesh" }
+	blend_shape = { id = "hd_han_plain_topknot_crown" type = "m_hair_hd_han_plain_topknot_bs_crown.mesh" }
+	blend_shape = { id = "hd_han_plain_topknot_hat" type = "m_hair_hd_han_plain_topknot_bs_hat.mesh" }
+	blend_shape = { id = "hd_han_plain_topknot_cap" type = "m_hair_hd_han_plain_topknot_bs_cap.mesh" }
+	blend_shape = { id = "hd_han_plain_topknot_hood" type = "m_hair_hd_han_plain_topknot_bs_hood.mesh" }
+	blend_shape = { id = "hd_han_plain_topknot_helmet" type = "m_hair_hd_han_plain_topknot_bs_helmet.mesh" }
+	blend_shape = { id = "hd_han_plain_topknot_chinstrap" type = "m_hair_hd_han_plain_topknot_bs_chinstrap.mesh" }
+	meshsettings = {
+		name = "m_hair_hd_han_plain_topknotShape"
+		index = 0
+		texture_diffuse = "m_hair_hd_han_plain_topknot_diffuse.dds"
+		texture_normal = "m_hair_hd_han_plain_topknot_normal.dds"
+		texture_specular = "m_hair_hd_han_plain_topknot_properties.dds"
+		texture = { file = "gfx/models/portraits/black_ssao_color.dds" index = 3 }
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+}
+
+entity = {
+	name = "m_hair_hd_han_plain_topknot_entity"
+	pdxmesh = "m_hair_hd_han_plain_topknot_mesh"
+	attribute = { name = "bs_fat_1" blend_shape = "hd_han_plain_topknot_fat" }
+	attribute = { name = "bs_crown" blend_shape = "hd_han_plain_topknot_crown" }
+	attribute = { name = "bs_hat" blend_shape = "hd_han_plain_topknot_hat" }
+	attribute = { name = "bs_cap" blend_shape = "hd_han_plain_topknot_cap" }
+	attribute = { name = "bs_hood" blend_shape = "hd_han_plain_topknot_hood" }
+	attribute = { name = "bs_helmet" blend_shape = "hd_han_plain_topknot_helmet" }
+	attribute = { name = "bs_chinstrap" blend_shape = "hd_han_plain_topknot_chinstrap" }
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = { interval = { 0.0 1.0 } }
+		}
+	}
+}

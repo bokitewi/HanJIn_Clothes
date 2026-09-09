@@ -1,0 +1,32 @@
+pdxmesh = {
+	name = "m_headgear_hd_frontier_xianbei_long_mesh"
+	file = "m_headgear_hd_frontier_xianbei_long.mesh"
+	blend_shape = { id = "m_headgear_hd_frontier_xianbei_long_bs_fat" type = "m_headgear_hd_frontier_xianbei_long_bs_fat.mesh" }
+	meshsettings = {
+		name = "ff_h_xianbei_long_helmet_1_396800afShape"
+		index = 0
+		texture_diffuse = "tex_787e431fa8a3557e_diffuse.dds"
+		texture_normal = "tex_787e431fa8a3557e_normal.dds"
+		texture_specular = "tex_787e431fa8a3557e_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_h_xianbei_long_helmet_2_a421a6f5Shape"
+		index = 0
+		texture_diffuse = "tex_8bb3af77e5b5a207_diffuse.dds"
+		texture_normal = "tex_8bb3af77e5b5a207_normal.dds"
+		texture_specular = "tex_8bb3af77e5b5a207_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+}
+entity = {
+	name = "m_headgear_hd_frontier_xianbei_long_entity"
+	pdxmesh = "m_headgear_hd_frontier_xianbei_long_mesh"
+	attribute = { name = "bs_fat_1" blend_shape = "m_headgear_hd_frontier_xianbei_long_bs_fat" }
+}

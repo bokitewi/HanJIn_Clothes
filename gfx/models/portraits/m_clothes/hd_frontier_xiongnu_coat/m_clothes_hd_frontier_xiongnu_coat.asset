@@ -1,0 +1,88 @@
+pdxmesh = {
+	name = "m_clothes_hd_frontier_xiongnu_coat_mesh"
+	file = "m_clothes_hd_frontier_xiongnu_coat.mesh"
+	blend_shape = { id = "m_clothes_hd_frontier_xiongnu_coat_bs_fat" type = "m_clothes_hd_frontier_xiongnu_coat_bs_fat.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_xiongnu_coat_bs_gaunt" type = "m_clothes_hd_frontier_xiongnu_coat_bs_gaunt.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_xiongnu_coat_bs_musc" type = "m_clothes_hd_frontier_xiongnu_coat_bs_musc.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_xiongnu_coat_bs_old" type = "m_clothes_hd_frontier_xiongnu_coat_bs_old.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_xiongnu_coat_bs_dwarf" type = "m_clothes_hd_frontier_xiongnu_coat_bs_dwarf.mesh" }
+	meshsettings = {
+		name = "ff_c_xiongnu_coat_chest_1_437160c0Shape"
+		index = 0
+		texture_diffuse = "tex_65a409e1327e2332_diffuse.dds"
+		texture_normal = "tex_65a409e1327e2332_normal.dds"
+		texture_specular = "tex_65a409e1327e2332_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_xiongnu_coat_belt_1_371c53ddShape"
+		index = 0
+		texture_diffuse = "tex_fa7bbe63652aae9a_diffuse.dds"
+		texture_normal = "tex_fa7bbe63652aae9a_normal.dds"
+		texture_specular = "tex_fa7bbe63652aae9a_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "ff_c_xiongnu_coat_robe_1_2434ac24Shape"
+		index = 0
+		texture_diffuse = "tex_a21d6c775934ce81_diffuse.dds"
+		texture_normal = "tex_a21d6c775934ce81_normal.dds"
+		texture_specular = "tex_a21d6c775934ce81_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "ff_c_xiongnu_coat_belt_2_4193b741Shape"
+		index = 0
+		texture_diffuse = "tex_a7b260cb37491ea4_diffuse.dds"
+		texture_normal = "tex_a7b260cb37491ea4_normal.dds"
+		texture_specular = "tex_a7b260cb37491ea4_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "ff_c_xiongnu_coat_sleeves_1_21dd441cShape"
+		index = 0
+		texture_diffuse = "tex_166aea02a8c014ba_diffuse.dds"
+		texture_normal = "tex_166aea02a8c014ba_normal.dds"
+		texture_specular = "tex_166aea02a8c014ba_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "ff_c_xiongnu_coat_hem_1_af701162Shape"
+		index = 0
+		texture_diffuse = "tex_a21d6c775934ce81_diffuse.dds"
+		texture_normal = "tex_a21d6c775934ce81_normal.dds"
+		texture_specular = "tex_a21d6c775934ce81_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+}
+entity = {
+	name = "m_clothes_hd_frontier_xiongnu_coat_entity"
+	pdxmesh = "m_clothes_hd_frontier_xiongnu_coat_mesh"
+	attribute = { name = "bs_body_fat_1" blend_shape = "m_clothes_hd_frontier_xiongnu_coat_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1" blend_shape = "m_clothes_hd_frontier_xiongnu_coat_bs_gaunt" }
+	attribute = { name = "bs_body_muscular_1" blend_shape = "m_clothes_hd_frontier_xiongnu_coat_bs_musc" }
+	attribute = { name = "bs_body_old_1" blend_shape = "m_clothes_hd_frontier_xiongnu_coat_bs_old" }
+	attribute = { name = "bs_body_dwarf_1" blend_shape = "m_clothes_hd_frontier_xiongnu_coat_bs_dwarf" }
+	game_data = { portrait_entity_user_data = { portrait_accessory = {
+		pattern_mask = "gfx/models/portraits/m_clothes/hd_frontier_xiongnu_coat/m_clothes_hd_frontier_xiongnu_coat_pattern_masks.dds"
+		variation = "hd_ten_equipment_plain"
+	} } }
+}

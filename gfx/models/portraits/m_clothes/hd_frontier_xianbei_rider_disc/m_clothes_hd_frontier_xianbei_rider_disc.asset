@@ -1,0 +1,143 @@
+pdxmesh = {
+	name = "m_clothes_hd_frontier_xianbei_rider_disc_mesh"
+	file = "m_clothes_hd_frontier_xianbei_rider_disc.mesh"
+	blend_shape = { id = "m_clothes_hd_frontier_xianbei_rider_disc_bs_fat" type = "m_clothes_hd_frontier_xianbei_rider_disc_bs_fat.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_xianbei_rider_disc_bs_gaunt" type = "m_clothes_hd_frontier_xianbei_rider_disc_bs_gaunt.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_xianbei_rider_disc_bs_musc" type = "m_clothes_hd_frontier_xianbei_rider_disc_bs_musc.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_xianbei_rider_disc_bs_old" type = "m_clothes_hd_frontier_xianbei_rider_disc_bs_old.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_xianbei_rider_disc_bs_dwarf" type = "m_clothes_hd_frontier_xianbei_rider_disc_bs_dwarf.mesh" }
+	meshsettings = {
+		name = "ff_c_xianbei_rider_disc_chest_1_9d8e068bShape"
+		index = 0
+		texture_diffuse = "tex_67f7a2b0fc7a734d_diffuse.dds"
+		texture_normal = "tex_67f7a2b0fc7a734d_normal.dds"
+		texture_specular = "tex_67f7a2b0fc7a734d_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_xianbei_rider_disc_shoulder_1_7d4690c8Shape"
+		index = 0
+		texture_diffuse = "tex_ad70c7211f6c167e_diffuse.dds"
+		texture_normal = "tex_ad70c7211f6c167e_normal.dds"
+		texture_specular = "tex_ad70c7211f6c167e_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_xianbei_rider_disc_collar_1_236eb73aShape"
+		index = 0
+		texture_diffuse = "tex_298e7237a1100c91_diffuse.dds"
+		texture_normal = "tex_298e7237a1100c91_normal.dds"
+		texture_specular = "tex_298e7237a1100c91_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_xianbei_rider_disc_chest_2_27bd1720Shape"
+		index = 0
+		texture_diffuse = "tex_b377a13d2b7e7d16_diffuse.dds"
+		texture_normal = "tex_b377a13d2b7e7d16_normal.dds"
+		texture_specular = "tex_b377a13d2b7e7d16_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_xianbei_rider_disc_belt_1_72d5f2a2Shape"
+		index = 0
+		texture_diffuse = "tex_02f4523528dae71a_diffuse.dds"
+		texture_normal = "tex_02f4523528dae71a_normal.dds"
+		texture_specular = "tex_02f4523528dae71a_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "ff_c_xianbei_rider_disc_skirt_1_193fcbe3Shape"
+		index = 0
+		texture_diffuse = "tex_b64ae0b168c755d3_diffuse.dds"
+		texture_normal = "tex_b64ae0b168c755d3_normal.dds"
+		texture_specular = "tex_b64ae0b168c755d3_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_xianbei_rider_disc_skirt_2_88f93b5eShape"
+		index = 0
+		texture_diffuse = "tex_7a4f952302e69b96_diffuse.dds"
+		texture_normal = "tex_7a4f952302e69b96_normal.dds"
+		texture_specular = "tex_7a4f952302e69b96_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_xianbei_rider_disc_sleeves_1_30337912Shape"
+		index = 0
+		texture_diffuse = "tex_4f58606bd59773ab_diffuse.dds"
+		texture_normal = "tex_4f58606bd59773ab_normal.dds"
+		texture_specular = "tex_4f58606bd59773ab_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "ff_c_xianbei_rider_disc_bracer_1_0bb5dc40Shape"
+		index = 0
+		texture_diffuse = "tex_c5498e6e8f89f6cd_diffuse.dds"
+		texture_normal = "tex_c5498e6e8f89f6cd_normal.dds"
+		texture_specular = "tex_c5498e6e8f89f6cd_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_xianbei_rider_disc_hem_1_25586ea1Shape"
+		index = 0
+		texture_diffuse = "tex_4f58606bd59773ab_diffuse.dds"
+		texture_normal = "tex_4f58606bd59773ab_normal.dds"
+		texture_specular = "tex_4f58606bd59773ab_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "ff_c_xianbei_rider_disc_collar_2_76b02d7bShape"
+		index = 0
+		texture_diffuse = "tex_250bd5a347c6861c_diffuse.dds"
+		texture_normal = "tex_250bd5a347c6861c_normal.dds"
+		texture_specular = "tex_250bd5a347c6861c_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+}
+entity = {
+	name = "m_clothes_hd_frontier_xianbei_rider_disc_entity"
+	pdxmesh = "m_clothes_hd_frontier_xianbei_rider_disc_mesh"
+	attribute = { name = "bs_body_fat_1" blend_shape = "m_clothes_hd_frontier_xianbei_rider_disc_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1" blend_shape = "m_clothes_hd_frontier_xianbei_rider_disc_bs_gaunt" }
+	attribute = { name = "bs_body_muscular_1" blend_shape = "m_clothes_hd_frontier_xianbei_rider_disc_bs_musc" }
+	attribute = { name = "bs_body_old_1" blend_shape = "m_clothes_hd_frontier_xianbei_rider_disc_bs_old" }
+	attribute = { name = "bs_body_dwarf_1" blend_shape = "m_clothes_hd_frontier_xianbei_rider_disc_bs_dwarf" }
+	game_data = { portrait_entity_user_data = { portrait_accessory = {
+		pattern_mask = "gfx/models/portraits/m_clothes/hd_frontier_xianbei_rider_disc/m_clothes_hd_frontier_xianbei_rider_disc_pattern_masks.dds"
+		variation = "hd_ten_equipment_plain"
+	} } }
+}

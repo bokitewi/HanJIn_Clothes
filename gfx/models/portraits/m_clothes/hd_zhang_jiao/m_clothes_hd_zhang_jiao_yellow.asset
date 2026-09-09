@@ -1,0 +1,40 @@
+pdxmesh = {
+	name = "m_clothes_hd_zhang_jiao_yellow_mesh"
+	file = "m_clothes_hd_zhang_jiao_yellow.mesh"
+
+	blend_shape = { id = "hd_zhang_jiao_infant" type = "m_clothes_hd_zhang_jiao_yellow_bs_infant.mesh" }
+	blend_shape = { id = "hd_zhang_jiao_fat" type = "m_clothes_hd_zhang_jiao_yellow_bs_fat.mesh" }
+	blend_shape = { id = "hd_zhang_jiao_gaunt" type = "m_clothes_hd_zhang_jiao_yellow_bs_gaunt.mesh" }
+	blend_shape = { id = "hd_zhang_jiao_musc" type = "m_clothes_hd_zhang_jiao_yellow_bs_musc.mesh" }
+	blend_shape = { id = "hd_zhang_jiao_old" type = "m_clothes_hd_zhang_jiao_yellow_bs_old.mesh" }
+	blend_shape = { id = "hd_zhang_jiao_dwarf" type = "m_clothes_hd_zhang_jiao_yellow_bs_dwarf.mesh" }
+
+	meshsettings = {
+		name = "m_clothes_rel_tgp_taoist_priest_01Shape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_zhang_jiao_yellow_diffuse.dds"
+		texture_normal = "m_clothes_hd_zhang_jiao_yellow_normal.dds"
+		texture_specular = "m_clothes_hd_zhang_jiao_yellow_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "m_clothes_hd_zhang_jiao_yellow_entity"
+	pdxmesh = "m_clothes_hd_zhang_jiao_yellow_mesh"
+	attribute = { name = "bs_body_fat_1" blend_shape = "hd_zhang_jiao_fat" }
+	attribute = { name = "bs_body_gaunt_1" blend_shape = "hd_zhang_jiao_gaunt" }
+	attribute = { name = "bs_body_muscular_1" blend_shape = "hd_zhang_jiao_musc" }
+	attribute = { name = "bs_body_infant_1" blend_shape = "hd_zhang_jiao_infant" }
+	attribute = { name = "bs_body_old_1" blend_shape = "hd_zhang_jiao_old" }
+	attribute = { name = "bs_body_dwarf_1" blend_shape = "hd_zhang_jiao_dwarf" }
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/m_clothes/hd_zhang_jiao/m_clothes_hd_zhang_jiao_yellow_masks.dds"
+				variation = "hd_zhang_jiao_yellow_clothes"
+			}
+		}
+	}
+}

@@ -1,0 +1,99 @@
+pdxmesh = {
+	name = "m_clothes_hd_frontier_crossbow_scale_mesh"
+	file = "m_clothes_hd_frontier_crossbow_scale.mesh"
+	blend_shape = { id = "m_clothes_hd_frontier_crossbow_scale_bs_fat" type = "m_clothes_hd_frontier_crossbow_scale_bs_fat.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_crossbow_scale_bs_gaunt" type = "m_clothes_hd_frontier_crossbow_scale_bs_gaunt.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_crossbow_scale_bs_musc" type = "m_clothes_hd_frontier_crossbow_scale_bs_musc.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_crossbow_scale_bs_old" type = "m_clothes_hd_frontier_crossbow_scale_bs_old.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_crossbow_scale_bs_dwarf" type = "m_clothes_hd_frontier_crossbow_scale_bs_dwarf.mesh" }
+	meshsettings = {
+		name = "ff_c_crossbow_scale_chest_1_c80ab06cShape"
+		index = 0
+		texture_diffuse = "tex_081333870813fa39_diffuse.dds"
+		texture_normal = "tex_081333870813fa39_normal.dds"
+		texture_specular = "tex_081333870813fa39_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_crossbow_scale_chest_2_e5996213Shape"
+		index = 0
+		texture_diffuse = "tex_e022b273b4edf3d4_diffuse.dds"
+		texture_normal = "tex_e022b273b4edf3d4_normal.dds"
+		texture_specular = "tex_e022b273b4edf3d4_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_crossbow_scale_belt_1_4854057fShape"
+		index = 0
+		texture_diffuse = "tex_c571dc6362d6aff6_diffuse.dds"
+		texture_normal = "tex_c571dc6362d6aff6_normal.dds"
+		texture_specular = "tex_c571dc6362d6aff6_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_crossbow_scale_skirt_1_b6a38817Shape"
+		index = 0
+		texture_diffuse = "tex_b64ae0b168c755d3_diffuse.dds"
+		texture_normal = "tex_b64ae0b168c755d3_normal.dds"
+		texture_specular = "tex_b64ae0b168c755d3_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_crossbow_scale_sleeves_1_01b8b844Shape"
+		index = 0
+		texture_diffuse = "tex_4f58606bd59773ab_diffuse.dds"
+		texture_normal = "tex_4f58606bd59773ab_normal.dds"
+		texture_specular = "tex_4f58606bd59773ab_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "ff_c_crossbow_scale_bracer_1_31c8dbd5Shape"
+		index = 0
+		texture_diffuse = "tex_bc6c95dd4db232a5_diffuse.dds"
+		texture_normal = "tex_bc6c95dd4db232a5_normal.dds"
+		texture_specular = "tex_bc6c95dd4db232a5_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_crossbow_scale_hem_1_cf823c38Shape"
+		index = 0
+		texture_diffuse = "tex_4f58606bd59773ab_diffuse.dds"
+		texture_normal = "tex_4f58606bd59773ab_normal.dds"
+		texture_specular = "tex_4f58606bd59773ab_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+}
+entity = {
+	name = "m_clothes_hd_frontier_crossbow_scale_entity"
+	pdxmesh = "m_clothes_hd_frontier_crossbow_scale_mesh"
+	attribute = { name = "bs_body_fat_1" blend_shape = "m_clothes_hd_frontier_crossbow_scale_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1" blend_shape = "m_clothes_hd_frontier_crossbow_scale_bs_gaunt" }
+	attribute = { name = "bs_body_muscular_1" blend_shape = "m_clothes_hd_frontier_crossbow_scale_bs_musc" }
+	attribute = { name = "bs_body_old_1" blend_shape = "m_clothes_hd_frontier_crossbow_scale_bs_old" }
+	attribute = { name = "bs_body_dwarf_1" blend_shape = "m_clothes_hd_frontier_crossbow_scale_bs_dwarf" }
+	game_data = { portrait_entity_user_data = { portrait_accessory = {
+		pattern_mask = "gfx/models/portraits/m_clothes/hd_frontier_crossbow_scale/m_clothes_hd_frontier_crossbow_scale_pattern_masks.dds"
+		variation = "hd_ten_equipment_plain"
+	} } }
+}

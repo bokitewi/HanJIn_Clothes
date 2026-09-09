@@ -1,0 +1,30 @@
+﻿m_clothes_hd_zhang_jiao_yellow = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_clothes_hd_zhang_jiao_yellow_entity }
+}
+
+m_headgear_hd_zhang_jiao_yellow = {
+	set_tags = "crown"
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_zhang_jiao_yellow_entity }
+}
+
+# 自动配发专用别名：保留原配件标签和实体，不沿用 hood_on 的空实体分支。
+m_headgear_hd_taiping_fabric_08_auto = {
+	set_tags = "hat,snug_headgear"
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_yellow_turban_fabric_08_entity }
+}
+
+m_headgear_hd_taiping_fabric_02_auto = {
+	set_tags = "no_hair,hat,snug_headgear"
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_taiping_fabric_02_yellow_entity }
+}
+
+m_headgear_hd_taiping_headwrap_01_auto = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_yellow_headwrap_01_entity }
+}
+
+m_headgear_hd_taiping_headwrap_04_auto = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_yellow_headwrap_04_entity }
+}

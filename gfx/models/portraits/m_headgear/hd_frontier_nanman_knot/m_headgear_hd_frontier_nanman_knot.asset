@@ -1,0 +1,37 @@
+pdxmesh = {
+	name = "m_headgear_hd_frontier_nanman_knot_mesh"
+	file = "m_headgear_hd_frontier_nanman_knot.mesh"
+	blend_shape = { id = "m_headgear_hd_frontier_nanman_knot_bs_fat" type = "m_headgear_hd_frontier_nanman_knot_bs_fat.mesh" }
+	meshsettings = {
+		name = "ff_h_nanman_knot_hair_1_49aac840Shape"
+		index = 0
+		texture_diffuse = "tex_136afcc31d02dea3_diffuse.dds"
+		texture_normal = "tex_136afcc31d02dea3_normal.dds"
+		texture_specular = "tex_136afcc31d02dea3_properties.dds"
+		texture = { file = "gfx/models/portraits/black_ssao_color.dds" index = 3 }
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_h_nanman_knot_headcloth_1_b3c98c5fShape"
+		index = 0
+		texture_diffuse = "tex_b078ce1662d48411_diffuse.dds"
+		texture_normal = "tex_b078ce1662d48411_normal.dds"
+		texture_specular = "tex_b078ce1662d48411_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+}
+entity = {
+	name = "m_headgear_hd_frontier_nanman_knot_entity"
+	pdxmesh = "m_headgear_hd_frontier_nanman_knot_mesh"
+	attribute = { name = "bs_fat_1" blend_shape = "m_headgear_hd_frontier_nanman_knot_bs_fat" }
+	game_data = { portrait_entity_user_data = { color_mask_remap_interval = { interval = { 0.0 1.0 } } portrait_accessory = {
+		pattern_mask = "gfx/models/portraits/m_headgear/hd_frontier_nanman_knot/m_headgear_hd_frontier_nanman_knot_pattern_masks.dds"
+		variation = "hd_ten_equipment_plain"
+	} } }
+}

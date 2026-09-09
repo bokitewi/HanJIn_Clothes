@@ -1,0 +1,21 @@
+pdxmesh = {
+	name = "m_headgear_hd_frontier_xianbei_braid_band_mesh"
+	file = "m_headgear_hd_frontier_xianbei_braid_band.mesh"
+	blend_shape = { id = "m_headgear_hd_frontier_xianbei_braid_band_bs_fat" type = "m_headgear_hd_frontier_xianbei_braid_band_bs_fat.mesh" }
+	meshsettings = {
+		name = "ff_h_xianbei_braid_band_headcloth_1_ef8ef764Shape"
+		index = 0
+		texture_diffuse = "tex_0afb4a0c90d2908a_diffuse.dds"
+		texture_normal = "tex_0afb4a0c90d2908a_normal.dds"
+		texture_specular = "tex_0afb4a0c90d2908a_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+}
+entity = {
+	name = "m_headgear_hd_frontier_xianbei_braid_band_entity"
+	pdxmesh = "m_headgear_hd_frontier_xianbei_braid_band_mesh"
+	attribute = { name = "bs_fat_1" blend_shape = "m_headgear_hd_frontier_xianbei_braid_band_bs_fat" }
+}

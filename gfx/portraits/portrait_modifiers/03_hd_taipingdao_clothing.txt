@@ -1,0 +1,91 @@
+﻿## 张角专属黄袍、黄巾；覆盖自动着装，保留理发店手选。
+
+hd_zhang_jiao_clothes = {
+	usage = game
+	selection_behavior = max
+	priority = 8
+
+	zhang_jiao_taoist_clothes = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = hd_zhang_jiao_yellow_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:zhang_jiao
+				this = character:zhang_jiao
+				is_male = yes
+				is_adult = yes
+				has_tgp_dlc_trigger = yes
+			}
+		}
+	}
+}
+
+hd_zhang_jiao_headgear = {
+	usage = game
+	selection_behavior = max
+	priority = 8
+
+	zhang_jiao_yellow_headgear = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = hd_zhang_jiao_yellow_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				exists = character:zhang_jiao
+				this = character:zhang_jiao
+				is_male = yes
+				is_adult = yes
+				has_cp7_dlc_trigger = yes
+			}
+		}
+	}
+}
+
+## 成年男性太平道信众等权配发四款中式黄巾，张角使用上面的专属头巾。
+hd_taipingdao_headgear = {
+	usage = game
+	selection_behavior = max
+	priority = 7
+
+	hd_taipingdao_male_yellow_turbans = {
+		ignore_outfit_tags = yes
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = hd_taiping_male_headgear
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				is_male = yes
+				is_adult = yes
+				faith = faith:taipingdao
+				NOT = { this = character:zhang_jiao }
+			}
+		}
+	}
+}

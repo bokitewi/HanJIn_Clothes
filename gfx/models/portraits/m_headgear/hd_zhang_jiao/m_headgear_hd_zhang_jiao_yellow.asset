@@ -1,0 +1,26 @@
+pdxmesh = {
+	name = "m_headgear_hd_zhang_jiao_yellow_mesh"
+	file = "m_headgear_hd_zhang_jiao_yellow.mesh"
+	meshsettings = {
+		name = "m_headgear_sec_ccp_emishi_com_01"
+		index = 0
+		texture_diffuse = "m_headgear_hd_zhang_jiao_yellow_diffuse.dds"
+		texture_normal = "m_headgear_hd_zhang_jiao_yellow_normal.dds"
+		texture_specular = "m_headgear_hd_zhang_jiao_yellow_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "m_headgear_hd_zhang_jiao_yellow_entity"
+	pdxmesh = "m_headgear_hd_zhang_jiao_yellow_mesh"
+	game_data = {
+		portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/m_headgear/hd_zhang_jiao/m_headgear_hd_zhang_jiao_yellow_masks.dds"
+				variation = "hd_zhang_jiao_yellow_headgear"
+			}
+		}
+	}
+}

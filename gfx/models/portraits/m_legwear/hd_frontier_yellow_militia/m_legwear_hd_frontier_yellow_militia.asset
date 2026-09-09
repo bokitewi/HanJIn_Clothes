@@ -1,0 +1,40 @@
+pdxmesh = {
+	name = "m_legwear_hd_frontier_yellow_militia_mesh"
+	file = "m_legwear_hd_frontier_yellow_militia.mesh"
+	blend_shape = { id = "m_legwear_hd_frontier_yellow_militia_bs_fat" type = "m_legwear_hd_frontier_yellow_militia_bs_fat.mesh" }
+	blend_shape = { id = "m_legwear_hd_frontier_yellow_militia_bs_gaunt" type = "m_legwear_hd_frontier_yellow_militia_bs_gaunt.mesh" }
+	blend_shape = { id = "m_legwear_hd_frontier_yellow_militia_bs_musc" type = "m_legwear_hd_frontier_yellow_militia_bs_musc.mesh" }
+	blend_shape = { id = "m_legwear_hd_frontier_yellow_militia_bs_old" type = "m_legwear_hd_frontier_yellow_militia_bs_old.mesh" }
+	blend_shape = { id = "m_legwear_hd_frontier_yellow_militia_bs_dwarf" type = "m_legwear_hd_frontier_yellow_militia_bs_dwarf.mesh" }
+	meshsettings = {
+		name = "ff_l_yellow_militia_trousers_1_f0091d1eShape"
+		index = 0
+		texture_diffuse = "tex_d20e5cda5a5932e0_diffuse.dds"
+		texture_normal = "tex_d20e5cda5a5932e0_normal.dds"
+		texture_specular = "tex_d20e5cda5a5932e0_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_l_yellow_militia_shoes_1_7ece9fd2Shape"
+		index = 0
+		texture_diffuse = "tex_deb983525c1c4f41_diffuse.dds"
+		texture_normal = "tex_deb983525c1c4f41_normal.dds"
+		texture_specular = "tex_deb983525c1c4f41_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+}
+entity = {
+	name = "m_legwear_hd_frontier_yellow_militia_entity"
+	pdxmesh = "m_legwear_hd_frontier_yellow_militia_mesh"
+	attribute = { name = "bs_body_fat_1" blend_shape = "m_legwear_hd_frontier_yellow_militia_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1" blend_shape = "m_legwear_hd_frontier_yellow_militia_bs_gaunt" }
+	attribute = { name = "bs_body_muscular_1" blend_shape = "m_legwear_hd_frontier_yellow_militia_bs_musc" }
+	attribute = { name = "bs_body_old_1" blend_shape = "m_legwear_hd_frontier_yellow_militia_bs_old" }
+	attribute = { name = "bs_body_dwarf_1" blend_shape = "m_legwear_hd_frontier_yellow_militia_bs_dwarf" }
+}

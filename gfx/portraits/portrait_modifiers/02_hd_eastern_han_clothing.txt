@@ -1,0 +1,246 @@
+﻿hd_eastern_han_clothes = {
+	usage = game
+	selection_behavior = max
+	priority = 2
+
+	# 旧男性分支仅保留男童；女性分支与旧日期不变。
+	hd_eastern_han_m_commoner = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = tgp_korean_commoner_clothes
+				range = { 0 1 }
+				type = male
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				hd_eastern_han_clothing_base_trigger = yes
+				is_male = yes
+				is_adult = no
+				NOT = { hd_eastern_han_male_official_clothing_trigger = yes }
+				OR = {
+					portrait_commoner_clothing_trigger = { CULTURE_INPUT = chinese }
+					hd_eastern_han_unlanded_shizu_trigger = yes
+				}
+			}
+		}
+	}
+
+	hd_eastern_han_m_low_noble = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = tgp_korean_era1_nobility_clothes
+				range = { 0 1 }
+				type = male
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				hd_eastern_han_clothing_base_trigger = yes
+				is_male = yes
+				is_adult = no
+				portrait_low_nobles_trigger = { CULTURE_INPUT = chinese }
+				NOT = { hd_eastern_han_unlanded_shizu_trigger = yes }
+				NOT = { hd_eastern_han_male_official_clothing_trigger = yes }
+			}
+		}
+	}
+
+	hd_eastern_han_m_high_noble = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = tgp_korean_high_nobility_clothes
+				range = { 0 1 }
+				type = male
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				hd_eastern_han_clothing_base_trigger = yes
+				is_male = yes
+				is_adult = no
+				portrait_high_nobles_trigger = { CULTURE_INPUT = chinese }
+				NOT = { hd_eastern_han_unlanded_shizu_trigger = yes }
+				NOT = { hd_eastern_han_male_official_clothing_trigger = yes }
+			}
+		}
+	}
+
+	hd_eastern_han_f_commoner = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = tgp_korean_commoner_clothes
+				range = { 0 1 }
+				type = female
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				hd_eastern_han_clothing_base_trigger = yes
+				is_female = yes
+				OR = {
+					portrait_commoner_clothing_trigger = { CULTURE_INPUT = chinese }
+					hd_eastern_han_unlanded_shizu_trigger = yes
+				}
+			}
+		}
+	}
+
+	hd_eastern_han_f_low_noble = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = tgp_korean_era1_nobility_clothes
+				range = { 0 1 }
+				type = female
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				hd_eastern_han_clothing_base_trigger = yes
+				is_female = yes
+				portrait_low_nobles_trigger = { CULTURE_INPUT = chinese }
+				NOT = { hd_eastern_han_unlanded_shizu_trigger = yes }
+			}
+		}
+	}
+
+	hd_eastern_han_f_high_noble = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = tgp_korean_high_nobility_clothes
+				range = { 0 1 }
+				type = female
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				hd_eastern_han_clothing_base_trigger = yes
+				is_female = yes
+				portrait_high_nobles_trigger = { CULTURE_INPUT = chinese }
+				NOT = { hd_eastern_han_unlanded_shizu_trigger = yes }
+			}
+		}
+	}
+}
+
+hd_eastern_han_headgear = {
+
+	# 事件强制服饰时只让位，不写入任何基因；零权重被标签激活也不会跨文化分配。
+	hd_early_era_official_preserve_event_outfit = {
+		dna_modifiers = { }
+		outfit_tags = { bishop_outfit monk_outfit priest_outfit religious_zoroastrian_high_clothes rank_headgear beggar_rags hajj_clothes mena_stealth jester_outfit mena_stealth_hood spectacles_outfit spouse_outfit western_stealth western_stealth_hood imaginary_friend_adult imaginary_friend_child nightgown no_clothes no_headgear }
+		weight = { base = 0 }
+	}
+	usage = game
+	selection_behavior = max
+	priority = 2
+
+	hd_eastern_han_m_official_military_headgear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = hd_huaxia_wubian_guan
+				accessory = m_headgear_hd_huaxia_wubian_guan
+				type = male
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				hd_early_era_chinese_trigger = yes
+				hd_early_era_daily_official_trigger = yes
+				hd_early_era_daily_headgear_trigger = yes
+				OR = {
+					has_council_position = minister_grand_marshal
+					has_title = title:e_minister_grand_marshal
+				}
+			}
+		}
+	}
+
+	hd_eastern_han_m_official_civil_headgear = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = hd_huaxia_jinxian_guan
+				accessory = m_headgear_hd_huaxia_jinxian_guan
+				type = male
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				hd_early_era_chinese_trigger = yes
+				hd_early_era_daily_official_trigger = yes
+				hd_early_era_daily_headgear_trigger = yes
+				NOR = {
+					has_council_position = minister_grand_marshal
+					has_title = title:e_minister_grand_marshal
+				}
+			}
+		}
+	}
+}
+
+# 成年中华男性的日常整套池；不添加会使范围外角色强制入池的 outfit_tags。
+hd_early_era_daily_clothes = {
+
+	# 事件强制服饰时只让位，不写入任何基因；零权重被标签激活也不会跨文化分配。
+	hd_early_era_daily_preserve_event_outfit = {
+		dna_modifiers = { }
+		outfit_tags = { bishop_outfit monk_outfit priest_outfit religious_zoroastrian_high_clothes rank_headgear beggar_rags hajj_clothes mena_stealth jester_outfit mena_stealth_hood spectacles_outfit spouse_outfit western_stealth western_stealth_hood imaginary_friend_adult imaginary_friend_child nightgown no_clothes no_headgear }
+		weight = { base = 0 }
+	}
+	usage = game
+	selection_behavior = weighted_random
+	priority = 2
+
+	hd_daily_chinese_official = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_eastern_han_official_robe_01 accessory = m_clothes_sec_hd_eastern_han_official_robe_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_daily_official_trigger = yes } }
+	}
+	hd_daily_chinese_noble = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_eastern_han_nob_daily_zhiju_01 accessory = m_clothes_sec_hd_eastern_han_nob_daily_zhiju_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_daily_noble_trigger = yes } }
+	}
+	hd_daily_chinese_axe_band = {
+		dna_modifiers = {
+			accessory = { mode = add gene = clothes template = hd_historic_axe_band_01 accessory = m_clothes_hd_historic_axe_band_01 type = male }
+			accessory = { mode = add gene = legwear template = hd_historic_axe_band_01 accessory = m_legwear_hd_historic_axe_band_01 type = male }
+		}
+		weight = { base = 0 modifier = { add = 50 hd_early_era_chinese_trigger = yes hd_early_era_daily_commoner_trigger = yes } }
+	}
+
+}

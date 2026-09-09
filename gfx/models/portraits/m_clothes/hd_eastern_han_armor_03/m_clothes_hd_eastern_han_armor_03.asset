@@ -1,0 +1,154 @@
+pdxmesh = {
+	name = "m_clothes_hd_eastern_han_armor_03_mesh"
+	file = "m_clothes_hd_eastern_han_armor_03.mesh"
+	blend_shape = { id = "m_clothes_hd_eastern_han_armor_03_bs_fat" type = "m_clothes_hd_eastern_han_armor_03_bs_fat.mesh" }
+	blend_shape = { id = "m_clothes_hd_eastern_han_armor_03_bs_gaunt" type = "m_clothes_hd_eastern_han_armor_03_bs_gaunt.mesh" }
+	blend_shape = { id = "m_clothes_hd_eastern_han_armor_03_bs_musc" type = "m_clothes_hd_eastern_han_armor_03_bs_musc.mesh" }
+	blend_shape = { id = "m_clothes_hd_eastern_han_armor_03_bs_old" type = "m_clothes_hd_eastern_han_armor_03_bs_old.mesh" }
+	blend_shape = { id = "m_clothes_hd_eastern_han_armor_03_bs_dwarf" type = "m_clothes_hd_eastern_han_armor_03_bs_dwarf.mesh" }
+	meshsettings = {
+		name = "m_clothes_hd_eastern_han_armor_03_collar_armorShape"
+		index = 0
+		texture_diffuse = "tex_05687ebaa3d65d93_diffuse.dds"
+		texture_normal = "tex_05687ebaa3d65d93_normal.dds"
+		texture_specular = "tex_05687ebaa3d65d93_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_eastern_han_armor_03_chestShape"
+		index = 0
+		texture_diffuse = "tex_22aea88cc4a62441_diffuse.dds"
+		texture_normal = "tex_22aea88cc4a62441_normal.dds"
+		texture_specular = "tex_22aea88cc4a62441_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_eastern_han_armor_03_chest_2Shape"
+		index = 0
+		texture_diffuse = "tex_3a7e76b7b7e7f002_diffuse.dds"
+		texture_normal = "tex_3a7e76b7b7e7f002_normal.dds"
+		texture_specular = "tex_3a7e76b7b7e7f002_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_eastern_han_armor_03_beltShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_eastern_han_armor_03__tex_71451494b1d7456c_diffuse.dds"
+		texture_normal = "m_clothes_hd_eastern_han_armor_03__tex_71451494b1d7456c_normal.dds"
+		texture_specular = "m_clothes_hd_eastern_han_armor_03__tex_71451494b1d7456c_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_eastern_han_armor_03_sleevesShape"
+		index = 0
+		texture_diffuse = "tex_b73c33ea84368198_diffuse.dds"
+		texture_normal = "tex_b73c33ea84368198_normal.dds"
+		texture_specular = "tex_b73c33ea84368198_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_eastern_han_armor_03_hemShape"
+		index = 0
+		texture_diffuse = "tex_420c5ee1ac380844_diffuse.dds"
+		texture_normal = "tex_420c5ee1ac380844_normal.dds"
+		texture_specular = "tex_420c5ee1ac380844_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_eastern_han_armor_03_skirtShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_eastern_han_armor_03__tex_d8cbdbbed7ee6983_diffuse.dds"
+		texture_normal = "m_clothes_hd_eastern_han_armor_03__tex_d8cbdbbed7ee6983_normal.dds"
+		texture_specular = "m_clothes_hd_eastern_han_armor_03__tex_d8cbdbbed7ee6983_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_eastern_han_armor_03_collar_armor_2Shape"
+		index = 0
+		texture_diffuse = "tex_17e62842a2f3bc84_diffuse.dds"
+		texture_normal = "tex_17e62842a2f3bc84_normal.dds"
+		texture_specular = "tex_17e62842a2f3bc84_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_eastern_han_armor_03_skirt_2Shape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_eastern_han_armor_03__tex_5661296dca8c74fa_diffuse.dds"
+		texture_normal = "m_clothes_hd_eastern_han_armor_03__tex_5661296dca8c74fa_normal.dds"
+		texture_specular = "m_clothes_hd_eastern_han_armor_03__tex_5661296dca8c74fa_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_eastern_han_armor_03_skirt_3Shape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_eastern_han_armor_03__tex_a194012812921e5a_diffuse.dds"
+		texture_normal = "m_clothes_hd_eastern_han_armor_03__tex_a194012812921e5a_normal.dds"
+		texture_specular = "m_clothes_hd_eastern_han_armor_03__tex_a194012812921e5a_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_eastern_han_armor_03_skirt_4Shape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_eastern_han_armor_03__tex_a194012812921e5a_diffuse.dds"
+		texture_normal = "m_clothes_hd_eastern_han_armor_03__tex_a194012812921e5a_normal.dds"
+		texture_specular = "m_clothes_hd_eastern_han_armor_03__tex_a194012812921e5a_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_eastern_han_armor_03_shoulderShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_eastern_han_armor_03__tex_24e4ae1cb582dee8_diffuse.dds"
+		texture_normal = "m_clothes_hd_eastern_han_armor_03__tex_24e4ae1cb582dee8_normal.dds"
+		texture_specular = "m_clothes_hd_eastern_han_armor_03__tex_24e4ae1cb582dee8_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+}
+entity = {
+	name = "m_clothes_hd_eastern_han_armor_03_entity"
+	pdxmesh = "m_clothes_hd_eastern_han_armor_03_mesh"
+	attribute = { name = "bs_body_fat_1" blend_shape = "m_clothes_hd_eastern_han_armor_03_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1" blend_shape = "m_clothes_hd_eastern_han_armor_03_bs_gaunt" }
+	attribute = { name = "bs_body_muscular_1" blend_shape = "m_clothes_hd_eastern_han_armor_03_bs_musc" }
+	attribute = { name = "bs_body_old_1" blend_shape = "m_clothes_hd_eastern_han_armor_03_bs_old" }
+	attribute = { name = "bs_body_dwarf_1" blend_shape = "m_clothes_hd_eastern_han_armor_03_bs_dwarf" }
+	game_data = { portrait_entity_user_data = { portrait_accessory = {
+		pattern_mask = "gfx/models/portraits/m_clothes/hd_eastern_han_armor_03/m_clothes_hd_eastern_han_armor_03_pattern_masks.dds"
+		variation = "hd_ten_equipment_plain"
+	} } }
+}

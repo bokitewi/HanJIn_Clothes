@@ -1,0 +1,134 @@
+pdxmesh = {
+	name = "m_clothes_hd_belka_lu_bu_01_mesh"
+	file = "m_clothes_hd_belka_lu_bu_01.mesh"
+	blend_shape = { id = "m_clothes_hd_belka_lu_bu_01_bs_fat" type = "m_clothes_hd_belka_lu_bu_01_bs_fat.mesh" }
+	blend_shape = { id = "m_clothes_hd_belka_lu_bu_01_bs_gaunt" type = "m_clothes_hd_belka_lu_bu_01_bs_gaunt.mesh" }
+	blend_shape = { id = "m_clothes_hd_belka_lu_bu_01_bs_musc" type = "m_clothes_hd_belka_lu_bu_01_bs_musc.mesh" }
+	blend_shape = { id = "m_clothes_hd_belka_lu_bu_01_bs_old" type = "m_clothes_hd_belka_lu_bu_01_bs_old.mesh" }
+	blend_shape = { id = "m_clothes_hd_belka_lu_bu_01_bs_dwarf" type = "m_clothes_hd_belka_lu_bu_01_bs_dwarf.mesh" }
+	blend_shape = { id = "m_clothes_hd_belka_lu_bu_01_bs_seated" type = "m_clothes_hd_belka_lu_bu_01_bs_seated.mesh" }
+	meshsettings = {
+		name = "m_clothes_hd_belka_lu_bu_01_sleevesShape"
+		index = 0
+		texture_diffuse = "tex_fba634b8f403caeb_diffuse.dds"
+		texture_normal = "tex_fba634b8f403caeb_normal.dds"
+		texture_specular = "tex_fba634b8f403caeb_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_lu_bu_01_skirtShape"
+		index = 0
+		texture_diffuse = "tex_8b1a0f347995629d_diffuse.dds"
+		texture_normal = "tex_8b1a0f347995629d_normal.dds"
+		texture_specular = "tex_8b1a0f347995629d_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_lu_bu_01_beltShape"
+		index = 0
+		texture_diffuse = "tex_c54518fe99db5d60_diffuse.dds"
+		texture_normal = "tex_c54518fe99db5d60_normal.dds"
+		texture_specular = "tex_c54518fe99db5d60_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_lu_bu_01_chestShape"
+		index = 0
+		texture_diffuse = "tex_b4d068f449ff4d87_diffuse.dds"
+		texture_normal = "tex_b4d068f449ff4d87_normal.dds"
+		texture_specular = "tex_b4d068f449ff4d87_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_lu_bu_01_chest_2Shape"
+		index = 0
+		texture_diffuse = "tex_deae1ae7ffa0175c_diffuse.dds"
+		texture_normal = "tex_deae1ae7ffa0175c_normal.dds"
+		texture_specular = "tex_deae1ae7ffa0175c_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_lu_bu_01_bracerShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_belka_lu_bu_01__tex_94f2bfaf50b44baa_diffuse.dds"
+		texture_normal = "m_clothes_hd_belka_lu_bu_01__tex_94f2bfaf50b44baa_normal.dds"
+		texture_specular = "m_clothes_hd_belka_lu_bu_01__tex_94f2bfaf50b44baa_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_lu_bu_01_skirt_2Shape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_belka_lu_bu_01__tex_ffd6123011f4d023_diffuse.dds"
+		texture_normal = "m_clothes_hd_belka_lu_bu_01__tex_ffd6123011f4d023_normal.dds"
+		texture_specular = "m_clothes_hd_belka_lu_bu_01__tex_ffd6123011f4d023_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_lu_bu_01_collar_armorShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_belka_lu_bu_01__tex_64150aaef178d371_diffuse.dds"
+		texture_normal = "m_clothes_hd_belka_lu_bu_01__tex_64150aaef178d371_normal.dds"
+		texture_specular = "m_clothes_hd_belka_lu_bu_01__tex_64150aaef178d371_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_lu_bu_01_shoulderShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_belka_lu_bu_01__tex_e56a4e8345f6dbbe_diffuse.dds"
+		texture_normal = "m_clothes_hd_belka_lu_bu_01__tex_e56a4e8345f6dbbe_normal.dds"
+		texture_specular = "m_clothes_hd_belka_lu_bu_01__tex_e56a4e8345f6dbbe_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_belka_lu_bu_01_capeShape"
+		index = 0
+		texture_diffuse = "tex_89e669bd22176fe6_diffuse.dds"
+		texture_normal = "tex_89e669bd22176fe6_normal.dds"
+		texture_specular = "tex_89e669bd22176fe6_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+}
+entity = {
+	name = "m_clothes_hd_belka_lu_bu_01_entity"
+	pdxmesh = "m_clothes_hd_belka_lu_bu_01_mesh"
+	attribute = { name = "bs_body_fat_1" blend_shape = "m_clothes_hd_belka_lu_bu_01_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1" blend_shape = "m_clothes_hd_belka_lu_bu_01_bs_gaunt" }
+	attribute = { name = "bs_body_muscular_1" blend_shape = "m_clothes_hd_belka_lu_bu_01_bs_musc" }
+	attribute = { name = "bs_body_old_1" blend_shape = "m_clothes_hd_belka_lu_bu_01_bs_old" }
+	attribute = { name = "bs_body_dwarf_1" blend_shape = "m_clothes_hd_belka_lu_bu_01_bs_dwarf" }
+	attribute = { name = "bs_body_seated" blend_shape = "m_clothes_hd_belka_lu_bu_01_bs_seated" }
+	game_data = { portrait_entity_user_data = { portrait_accessory = {
+		pattern_mask = "gfx/models/portraits/m_clothes/hd_belka_lu_bu_01/m_clothes_hd_belka_lu_bu_01_pattern_masks.dds"
+		variation = "hd_ten_equipment_plain"
+	} } }
+}

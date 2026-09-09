@@ -1,0 +1,154 @@
+pdxmesh = {
+	name = "m_clothes_hd_historic_jian_guards_01_mesh"
+	file = "m_clothes_hd_historic_jian_guards_01.mesh"
+	blend_shape = { id = "m_clothes_hd_historic_jian_guards_01_bs_fat" type = "m_clothes_hd_historic_jian_guards_01_bs_fat.mesh" }
+	blend_shape = { id = "m_clothes_hd_historic_jian_guards_01_bs_gaunt" type = "m_clothes_hd_historic_jian_guards_01_bs_gaunt.mesh" }
+	blend_shape = { id = "m_clothes_hd_historic_jian_guards_01_bs_musc" type = "m_clothes_hd_historic_jian_guards_01_bs_musc.mesh" }
+	blend_shape = { id = "m_clothes_hd_historic_jian_guards_01_bs_old" type = "m_clothes_hd_historic_jian_guards_01_bs_old.mesh" }
+	blend_shape = { id = "m_clothes_hd_historic_jian_guards_01_bs_dwarf" type = "m_clothes_hd_historic_jian_guards_01_bs_dwarf.mesh" }
+	meshsettings = {
+		name = "m_clothes_hd_historic_jian_guards_01_collar_armorShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_historic_jian_guards_01__tex_30067b438050b70c_diffuse.dds"
+		texture_normal = "m_clothes_hd_historic_jian_guards_01__tex_30067b438050b70c_normal.dds"
+		texture_specular = "m_clothes_hd_historic_jian_guards_01__tex_30067b438050b70c_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_historic_jian_guards_01_collar_armor_2Shape"
+		index = 0
+		texture_diffuse = "tex_61bbfb7f942f3e6e_diffuse.dds"
+		texture_normal = "tex_61bbfb7f942f3e6e_normal.dds"
+		texture_specular = "tex_61bbfb7f942f3e6e_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_historic_jian_guards_01_shoulderShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_historic_jian_guards_01__tex_80893dc841fec672_diffuse.dds"
+		texture_normal = "m_clothes_hd_historic_jian_guards_01__tex_80893dc841fec672_normal.dds"
+		texture_specular = "m_clothes_hd_historic_jian_guards_01__tex_80893dc841fec672_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_historic_jian_guards_01_chestShape"
+		index = 0
+		texture_diffuse = "tex_4cc18d2386f3ce49_diffuse.dds"
+		texture_normal = "tex_4cc18d2386f3ce49_normal.dds"
+		texture_specular = "tex_4cc18d2386f3ce49_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_historic_jian_guards_01_skirtShape"
+		index = 0
+		texture_diffuse = "tex_2c3ed30d97e65302_diffuse.dds"
+		texture_normal = "tex_2c3ed30d97e65302_normal.dds"
+		texture_specular = "tex_2c3ed30d97e65302_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_historic_jian_guards_01_beltShape"
+		index = 0
+		texture_diffuse = "tex_63f5853732927c0f_diffuse.dds"
+		texture_normal = "tex_63f5853732927c0f_normal.dds"
+		texture_specular = "tex_63f5853732927c0f_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_historic_jian_guards_01_skirt_2Shape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_historic_jian_guards_01__tex_daa48dc8691708d9_diffuse.dds"
+		texture_normal = "m_clothes_hd_historic_jian_guards_01__tex_daa48dc8691708d9_normal.dds"
+		texture_specular = "m_clothes_hd_historic_jian_guards_01__tex_daa48dc8691708d9_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_historic_jian_guards_01_sleevesShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_historic_jian_guards_01__tex_fb0ac4205c811de2_diffuse.dds"
+		texture_normal = "m_clothes_hd_historic_jian_guards_01__tex_fb0ac4205c811de2_normal.dds"
+		texture_specular = "m_clothes_hd_historic_jian_guards_01__tex_fb0ac4205c811de2_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_historic_jian_guards_01_bracerShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_historic_jian_guards_01__tex_d8bc2d09efe62c3a_diffuse.dds"
+		texture_normal = "m_clothes_hd_historic_jian_guards_01__tex_d8bc2d09efe62c3a_normal.dds"
+		texture_specular = "m_clothes_hd_historic_jian_guards_01__tex_d8bc2d09efe62c3a_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_historic_jian_guards_01_hemShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_historic_jian_guards_01__tex_f635724bae627194_diffuse.dds"
+		texture_normal = "m_clothes_hd_historic_jian_guards_01__tex_f635724bae627194_normal.dds"
+		texture_specular = "m_clothes_hd_historic_jian_guards_01__tex_f635724bae627194_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_historic_jian_guards_01_collarShape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_historic_jian_guards_01__tex_317badcb050cf7d1_diffuse.dds"
+		texture_normal = "m_clothes_hd_historic_jian_guards_01__tex_317badcb050cf7d1_normal.dds"
+		texture_specular = "m_clothes_hd_historic_jian_guards_01__tex_317badcb050cf7d1_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_clothes_hd_historic_jian_guards_01_belt_2Shape"
+		index = 0
+		texture_diffuse = "m_clothes_hd_historic_jian_guards_01__tex_e5093f6d8a85c64f_diffuse.dds"
+		texture_normal = "m_clothes_hd_historic_jian_guards_01__tex_e5093f6d8a85c64f_normal.dds"
+		texture_specular = "m_clothes_hd_historic_jian_guards_01__tex_e5093f6d8a85c64f_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+}
+entity = {
+	name = "m_clothes_hd_historic_jian_guards_01_entity"
+	pdxmesh = "m_clothes_hd_historic_jian_guards_01_mesh"
+	attribute = { name = "bs_body_fat_1" blend_shape = "m_clothes_hd_historic_jian_guards_01_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1" blend_shape = "m_clothes_hd_historic_jian_guards_01_bs_gaunt" }
+	attribute = { name = "bs_body_muscular_1" blend_shape = "m_clothes_hd_historic_jian_guards_01_bs_musc" }
+	attribute = { name = "bs_body_old_1" blend_shape = "m_clothes_hd_historic_jian_guards_01_bs_old" }
+	attribute = { name = "bs_body_dwarf_1" blend_shape = "m_clothes_hd_historic_jian_guards_01_bs_dwarf" }
+	game_data = { portrait_entity_user_data = { portrait_accessory = {
+		pattern_mask = "gfx/models/portraits/m_clothes/hd_historic_jian_guards_01/m_clothes_hd_historic_jian_guards_01_pattern_masks.dds"
+		variation = "hd_ten_equipment_plain"
+	} } }
+}

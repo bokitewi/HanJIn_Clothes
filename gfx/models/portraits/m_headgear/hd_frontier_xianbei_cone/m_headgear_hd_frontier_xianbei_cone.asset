@@ -1,0 +1,21 @@
+pdxmesh = {
+	name = "m_headgear_hd_frontier_xianbei_cone_mesh"
+	file = "m_headgear_hd_frontier_xianbei_cone.mesh"
+	blend_shape = { id = "m_headgear_hd_frontier_xianbei_cone_bs_fat" type = "m_headgear_hd_frontier_xianbei_cone_bs_fat.mesh" }
+	meshsettings = {
+		name = "ff_h_xianbei_cone_helmet_1_16d991b6Shape"
+		index = 0
+		texture_diffuse = "tex_b6ce5bd01580d2fa_diffuse.dds"
+		texture_normal = "tex_b6ce5bd01580d2fa_normal.dds"
+		texture_specular = "tex_b6ce5bd01580d2fa_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+}
+entity = {
+	name = "m_headgear_hd_frontier_xianbei_cone_entity"
+	pdxmesh = "m_headgear_hd_frontier_xianbei_cone_mesh"
+	attribute = { name = "bs_fat_1" blend_shape = "m_headgear_hd_frontier_xianbei_cone_bs_fat" }
+}

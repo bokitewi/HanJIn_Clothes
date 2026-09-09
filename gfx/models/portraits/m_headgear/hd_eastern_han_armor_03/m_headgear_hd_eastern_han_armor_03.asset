@@ -1,0 +1,43 @@
+pdxmesh = {
+	name = "m_headgear_hd_eastern_han_armor_03_mesh"
+	file = "m_headgear_hd_eastern_han_armor_03.mesh"
+	blend_shape = { id = "m_headgear_hd_eastern_han_armor_03_bs_fat" type = "m_headgear_hd_eastern_han_armor_03_bs_fat.mesh" }
+	meshsettings = {
+		name = "m_headgear_hd_eastern_han_armor_03_helmetShape"
+		index = 0
+		texture_diffuse = "tex_d59986bb37d81620_diffuse.dds"
+		texture_normal = "tex_d59986bb37d81620_normal.dds"
+		texture_specular = "tex_d59986bb37d81620_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_headgear_hd_eastern_han_armor_03_helmet_2Shape"
+		index = 0
+		texture_diffuse = "tex_47e8c5da95f41dbf_diffuse.dds"
+		texture_normal = "tex_47e8c5da95f41dbf_normal.dds"
+		texture_specular = "tex_47e8c5da95f41dbf_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_headgear_hd_eastern_han_armor_03_plumeShape"
+		index = 0
+		texture_diffuse = "tex_3888495a4dde68e4_diffuse.dds"
+		texture_normal = "tex_3888495a4dde68e4_normal.dds"
+		texture_specular = "tex_3888495a4dde68e4_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+}
+entity = {
+	name = "m_headgear_hd_eastern_han_armor_03_entity"
+	pdxmesh = "m_headgear_hd_eastern_han_armor_03_mesh"
+	attribute = { name = "bs_fat_1" blend_shape = "m_headgear_hd_eastern_han_armor_03_bs_fat" }
+}

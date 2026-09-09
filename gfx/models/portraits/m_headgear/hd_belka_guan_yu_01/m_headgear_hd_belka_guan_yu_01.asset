@@ -1,0 +1,58 @@
+pdxmesh = {
+	name = "m_headgear_hd_belka_guan_yu_01_mesh"
+	file = "m_headgear_hd_belka_guan_yu_01.mesh"
+	blend_shape = { id = "m_headgear_hd_belka_guan_yu_01_bs_fat" type = "m_headgear_hd_belka_guan_yu_01_bs_fat.mesh" }
+	meshsettings = {
+		name = "m_headgear_hd_belka_guan_yu_01_headclothShape"
+		index = 0
+		texture_diffuse = "tex_62a810e4a1c23777_diffuse.dds"
+		texture_normal = "tex_62a810e4a1c23777_normal.dds"
+		texture_specular = "tex_62a810e4a1c23777_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "m_headgear_hd_belka_guan_yu_01_headcloth_2Shape"
+		index = 0
+		texture_diffuse = "tex_f7ead8903bdee26a_diffuse.dds"
+		texture_normal = "tex_f7ead8903bdee26a_normal.dds"
+		texture_specular = "tex_f7ead8903bdee26a_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "m_headgear_hd_belka_guan_yu_01_plumeShape"
+		index = 0
+		texture_diffuse = "m_headgear_hd_belka_guan_yu_01__tex_e186a4e1305477a9_diffuse.dds"
+		texture_normal = "m_headgear_hd_belka_guan_yu_01__tex_e186a4e1305477a9_normal.dds"
+		texture_specular = "m_headgear_hd_belka_guan_yu_01__tex_e186a4e1305477a9_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_headgear_hd_belka_guan_yu_01_plume_2Shape"
+		index = 0
+		texture_diffuse = "m_headgear_hd_belka_guan_yu_01__tex_83746757cff91528_diffuse.dds"
+		texture_normal = "m_headgear_hd_belka_guan_yu_01__tex_83746757cff91528_normal.dds"
+		texture_specular = "m_headgear_hd_belka_guan_yu_01__tex_83746757cff91528_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+}
+entity = {
+	name = "m_headgear_hd_belka_guan_yu_01_entity"
+	pdxmesh = "m_headgear_hd_belka_guan_yu_01_mesh"
+	attribute = { name = "bs_fat_1" blend_shape = "m_headgear_hd_belka_guan_yu_01_bs_fat" }
+	game_data = { portrait_entity_user_data = { portrait_accessory = {
+		pattern_mask = "gfx/models/portraits/m_headgear/hd_belka_guan_yu_01/m_headgear_hd_belka_guan_yu_01_pattern_masks.dds"
+		variation = "hd_ten_equipment_plain"
+	} } }
+}

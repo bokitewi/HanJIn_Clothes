@@ -1,0 +1,99 @@
+pdxmesh = {
+	name = "m_clothes_hd_frontier_yellow_shoulders_mesh"
+	file = "m_clothes_hd_frontier_yellow_shoulders.mesh"
+	blend_shape = { id = "m_clothes_hd_frontier_yellow_shoulders_bs_fat" type = "m_clothes_hd_frontier_yellow_shoulders_bs_fat.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_yellow_shoulders_bs_gaunt" type = "m_clothes_hd_frontier_yellow_shoulders_bs_gaunt.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_yellow_shoulders_bs_musc" type = "m_clothes_hd_frontier_yellow_shoulders_bs_musc.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_yellow_shoulders_bs_old" type = "m_clothes_hd_frontier_yellow_shoulders_bs_old.mesh" }
+	blend_shape = { id = "m_clothes_hd_frontier_yellow_shoulders_bs_dwarf" type = "m_clothes_hd_frontier_yellow_shoulders_bs_dwarf.mesh" }
+	meshsettings = {
+		name = "ff_c_yellow_shoulders_chest_1_58198c30Shape"
+		index = 0
+		texture_diffuse = "tex_de01de0c26967784_diffuse.dds"
+		texture_normal = "tex_de01de0c26967784_normal.dds"
+		texture_specular = "tex_de01de0c26967784_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_yellow_shoulders_belt_1_fbce7af8Shape"
+		index = 0
+		texture_diffuse = "tex_8163d9028bdc7c9b_diffuse.dds"
+		texture_normal = "tex_8163d9028bdc7c9b_normal.dds"
+		texture_specular = "tex_8163d9028bdc7c9b_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "ff_c_yellow_shoulders_shoulder_1_291bf7e2Shape"
+		index = 0
+		texture_diffuse = "tex_de01de0c26967784_diffuse.dds"
+		texture_normal = "tex_de01de0c26967784_normal.dds"
+		texture_specular = "tex_de01de0c26967784_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_yellow_shoulders_hem_1_9ef47b0dShape"
+		index = 0
+		texture_diffuse = "tex_8163d9028bdc7c9b_diffuse.dds"
+		texture_normal = "tex_8163d9028bdc7c9b_normal.dds"
+		texture_specular = "tex_8163d9028bdc7c9b_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "ff_c_yellow_shoulders_sleeves_1_02ed32efShape"
+		index = 0
+		texture_diffuse = "tex_4f58606bd59773ab_diffuse.dds"
+		texture_normal = "tex_4f58606bd59773ab_normal.dds"
+		texture_specular = "tex_4f58606bd59773ab_properties.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+	meshsettings = {
+		name = "ff_c_yellow_shoulders_bracer_1_f5cbdf2aShape"
+		index = 0
+		texture_diffuse = "tex_2d1e5bbda3c6e5b7_diffuse.dds"
+		texture_normal = "tex_2d1e5bbda3c6e5b7_normal.dds"
+		texture_specular = "tex_2d1e5bbda3c6e5b7_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "ff_c_yellow_shoulders_hem_2_2bcda9ceShape"
+		index = 0
+		texture_diffuse = "tex_01cfb33f3a03b05a_diffuse.dds"
+		texture_normal = "tex_01cfb33f3a03b05a_normal.dds"
+		texture_specular = "tex_01cfb33f3a03b05a_properties.dds"
+		shader = "portrait_attachment_pattern_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" "SECOND_COLOR_MASK" }
+	}
+}
+entity = {
+	name = "m_clothes_hd_frontier_yellow_shoulders_entity"
+	pdxmesh = "m_clothes_hd_frontier_yellow_shoulders_mesh"
+	attribute = { name = "bs_body_fat_1" blend_shape = "m_clothes_hd_frontier_yellow_shoulders_bs_fat" }
+	attribute = { name = "bs_body_gaunt_1" blend_shape = "m_clothes_hd_frontier_yellow_shoulders_bs_gaunt" }
+	attribute = { name = "bs_body_muscular_1" blend_shape = "m_clothes_hd_frontier_yellow_shoulders_bs_musc" }
+	attribute = { name = "bs_body_old_1" blend_shape = "m_clothes_hd_frontier_yellow_shoulders_bs_old" }
+	attribute = { name = "bs_body_dwarf_1" blend_shape = "m_clothes_hd_frontier_yellow_shoulders_bs_dwarf" }
+	game_data = { portrait_entity_user_data = { portrait_accessory = {
+		pattern_mask = "gfx/models/portraits/m_clothes/hd_frontier_yellow_shoulders/m_clothes_hd_frontier_yellow_shoulders_pattern_masks.dds"
+		variation = "hd_ten_equipment_plain"
+	} } }
+}

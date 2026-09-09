@@ -1,0 +1,27 @@
+﻿hd_han_daily_hairstyles = {
+	usage = game
+	selection_behavior = max
+	priority = 1
+
+	han_male_daily = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = hd_han_daily_hairstyles
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				exists = this
+				is_male = yes
+				is_adult = yes
+				culture = culture:han
+				has_tgp_dlc_trigger = yes
+			}
+		}
+	}
+}

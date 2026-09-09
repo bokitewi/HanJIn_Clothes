@@ -1,0 +1,43 @@
+pdxmesh = {
+	name = "m_headgear_hd_historic_heaven_guards_01_mesh"
+	file = "m_headgear_hd_historic_heaven_guards_01.mesh"
+	blend_shape = { id = "m_headgear_hd_historic_heaven_guards_01_bs_fat" type = "m_headgear_hd_historic_heaven_guards_01_bs_fat.mesh" }
+	meshsettings = {
+		name = "m_headgear_hd_historic_heaven_guards_01_helmetShape"
+		index = 0
+		texture_diffuse = "m_headgear_hd_historic_heaven_guards_01__tex_b8b98197b397a9ba_diffuse.dds"
+		texture_normal = "m_headgear_hd_historic_heaven_guards_01__tex_b8b98197b397a9ba_normal.dds"
+		texture_specular = "m_headgear_hd_historic_heaven_guards_01__tex_b8b98197b397a9ba_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_headgear_hd_historic_heaven_guards_01_plumeShape"
+		index = 0
+		texture_diffuse = "tex_0176e4cf7bf3cd3d_diffuse.dds"
+		texture_normal = "tex_0176e4cf7bf3cd3d_normal.dds"
+		texture_specular = "tex_0176e4cf7bf3cd3d_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+	meshsettings = {
+		name = "m_headgear_hd_historic_heaven_guards_01_plume_2Shape"
+		index = 0
+		texture_diffuse = "tex_0176e4cf7bf3cd3d_diffuse.dds"
+		texture_normal = "tex_0176e4cf7bf3cd3d_normal.dds"
+		texture_specular = "tex_0176e4cf7bf3cd3d_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+		rasterizerstate = "rasterizer_no_culling"
+		additional_shader_defines = { "DOUBLE_SIDED_ENABLED" }
+	}
+}
+entity = {
+	name = "m_headgear_hd_historic_heaven_guards_01_entity"
+	pdxmesh = "m_headgear_hd_historic_heaven_guards_01_mesh"
+	attribute = { name = "bs_fat_1" blend_shape = "m_headgear_hd_historic_heaven_guards_01_bs_fat" }
+}

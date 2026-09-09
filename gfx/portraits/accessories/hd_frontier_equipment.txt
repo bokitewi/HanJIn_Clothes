@@ -1,0 +1,257 @@
+﻿m_clothes_hd_frontier_xiongnu_coat = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,short_skirt"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_clothes_hd_frontier_xiongnu_coat_entity }
+}
+
+m_clothes_hd_frontier_xiongnu_coat_shoulder = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,short_skirt"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_clothes_hd_frontier_xiongnu_coat_shoulder_entity }
+}
+
+
+
+
+m_clothes_hd_frontier_xiongnu_heavy_dark = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,short_skirt"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_clothes_hd_frontier_xiongnu_heavy_dark_entity }
+}
+
+m_clothes_hd_frontier_xiongnu_noble = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,short_skirt"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_clothes_hd_frontier_xiongnu_noble_entity }
+}
+
+
+m_clothes_hd_frontier_xianbei_archer_panel_shoulder = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,short_skirt"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_clothes_hd_frontier_xianbei_archer_panel_shoulder_entity }
+}
+
+
+m_clothes_hd_frontier_xianbei_archer_lamellar_shoulder = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,short_skirt"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_clothes_hd_frontier_xianbei_archer_lamellar_shoulder_entity }
+}
+
+
+m_clothes_hd_frontier_xianbei_rider_disc = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,short_skirt"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_clothes_hd_frontier_xianbei_rider_disc_entity }
+}
+
+
+
+
+
+
+m_clothes_hd_frontier_nanman_wrap = {
+	set_tags = "shrink_chest,shrink_belly,short_skirt"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_clothes_hd_frontier_nanman_wrap_entity }
+}
+
+m_clothes_hd_frontier_nanman_shoulder = {
+	set_tags = "shrink_chest,shrink_belly,short_skirt"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_clothes_hd_frontier_nanman_shoulder_entity }
+}
+
+
+
+
+
+m_clothes_hd_frontier_crossbow_scale = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,short_skirt"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_clothes_hd_frontier_crossbow_scale_entity }
+}
+
+
+m_clothes_hd_frontier_yellow_shoulders = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly,short_skirt"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_clothes_hd_frontier_yellow_shoulders_entity }
+}
+
+m_headgear_hd_frontier_crossbow_cap = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_crossbow_cap_entity }
+}
+
+m_headgear_hd_frontier_xianbei_braid_band = {
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_xianbei_braid_band_entity }
+}
+
+m_headgear_hd_frontier_xiongnu_pointed = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_xiongnu_pointed_entity }
+}
+
+m_headgear_hd_frontier_xiongnu_leather_01 = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_xiongnu_leather_01_entity }
+}
+
+m_headgear_hd_frontier_xiongnu_leather_02 = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_xiongnu_leather_02_entity }
+}
+
+m_headgear_hd_frontier_xiongnu_leather_03 = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_xiongnu_leather_03_entity }
+}
+
+m_headgear_hd_frontier_xiongnu_iron = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_xiongnu_iron_entity }
+}
+
+m_headgear_hd_frontier_xiongnu_bronze = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_xiongnu_bronze_entity }
+}
+
+m_headgear_hd_frontier_xiongnu_crown = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_xiongnu_crown_entity }
+}
+
+m_headgear_hd_frontier_xianbei_cone = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_xianbei_cone_entity }
+}
+
+m_headgear_hd_frontier_yellow_headwrap_01 = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_yellow_headwrap_01_entity }
+}
+
+m_headgear_hd_frontier_yellow_headwrap_04 = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_yellow_headwrap_04_entity }
+}
+
+m_headgear_hd_frontier_xiongnu_segmented_1 = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_xiongnu_segmented_1_entity }
+}
+
+m_headgear_hd_frontier_xiongnu_segmented_2 = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_xiongnu_segmented_2_entity }
+}
+
+m_headgear_hd_frontier_xiongnu_noble_cap = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_xiongnu_noble_cap_entity }
+}
+
+
+m_headgear_hd_frontier_xianbei_iron = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_xianbei_iron_entity }
+}
+
+m_headgear_hd_frontier_xianbei_pattern = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_xianbei_pattern_entity }
+}
+
+m_headgear_hd_frontier_xianbei_long = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_xianbei_long_entity }
+}
+
+
+m_headgear_hd_frontier_nanman_knot = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_nanman_knot_entity }
+}
+
+m_headgear_hd_frontier_nanman_straw = {
+	set_tags = "no_hair,helmet,snug_headgear"
+	entity = { required_tags = "hood_on" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_headgear_hd_frontier_nanman_straw_entity }
+}
+
+m_legwear_hd_frontier_xiongnu_boots_1 = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_legwear_hd_frontier_xiongnu_boots_1_entity }
+}
+
+m_legwear_hd_frontier_xiongnu_boots_2 = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_legwear_hd_frontier_xiongnu_boots_2_entity }
+}
+
+m_legwear_hd_frontier_xiongnu_heavy = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_legwear_hd_frontier_xiongnu_heavy_entity }
+}
+
+m_legwear_hd_frontier_xiongnu_noble = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_legwear_hd_frontier_xiongnu_noble_entity }
+}
+
+m_legwear_hd_frontier_xianbei_archer = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_legwear_hd_frontier_xianbei_archer_entity }
+}
+
+m_legwear_hd_frontier_xianbei_rider = {
+	set_tags = "shrink_legs,shrink_feet"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_legwear_hd_frontier_xianbei_rider_entity }
+}
+
+m_legwear_hd_frontier_nanman_ankles = {
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_legwear_hd_frontier_nanman_ankles_entity }
+}
+
+m_legwear_hd_frontier_nanman_wraps = {
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_legwear_hd_frontier_nanman_wraps_entity }
+}
+
+m_legwear_hd_frontier_nanman_bamboo = {
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_legwear_hd_frontier_nanman_bamboo_entity }
+}
+
+m_legwear_hd_frontier_nanman_tall = {
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_legwear_hd_frontier_nanman_tall_entity }
+}
+
+m_legwear_hd_frontier_yellow_militia = {
+	set_tags = "shrink_legs"
+	entity = { required_tags = "" shared_pose_entity = torso entity = m_legwear_hd_frontier_yellow_militia_entity }
+}
+
+m_hair_hd_frontier_topknot = {
+	entity = { required_tags = "no_hair" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_hair_hd_frontier_topknot_entity }
+}
+
+m_hair_hd_frontier_loose_topknot = {
+	entity = { required_tags = "no_hair" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_hair_hd_frontier_loose_topknot_entity }
+}
+
+m_hair_hd_frontier_xianbei_braids = {
+	entity = { required_tags = "no_hair" shared_pose_entity = head }
+	entity = { required_tags = "" shared_pose_entity = head entity = m_hair_hd_frontier_xianbei_braids_entity }
+}
