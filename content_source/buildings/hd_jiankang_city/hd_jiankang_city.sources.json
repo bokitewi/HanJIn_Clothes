@@ -1,0 +1,2010 @@
+{
+  "sources": [
+    {
+      "path": "F:\\开源建筑\\atlas\\matts_asian_atlas\\east_asian_atlas_diffuse.dds",
+      "sha256": "3fccfd2767b6e934291ac81eaa60b7ce02837e2c96301f4b6a90f084aa3c7beb",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\开源建筑\\chinese\\chinese_city_01\\chinese_city_01_unique.dds",
+      "sha256": "dee8c595ae949846f19ad509328cd0c56ba8c9631a197c58fa246b905d2b9323",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\开源建筑\\atlas\\matts_asian_atlas\\east_asian_atlas_normal.dds",
+      "sha256": "dd66777221d5a881e2d4c3c43564e637fd67cfbf869dcddc68562ece23555455",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\开源建筑\\atlas\\matts_asian_atlas\\east_asian_atlas_properties.dds",
+      "sha256": "cda79a5e3dd2f95ac342613817805a57b98164b1b93781a609b0689122ab5bb5",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\开源建筑\\chinese\\chinese_city_02\\chinese_city_02_unique.dds",
+      "sha256": "5988503d280dada8ed01b9dd5b5596498d1172029923a8f51d3507efcf8415d2",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\开源建筑\\chinese\\chinese_walls_04\\chinese_walls_04_unique.dds",
+      "sha256": "9b79ecda9e23c2a49ee3ca97aa817a08bc82b2be3fac1ce60b5bac840e18c229",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\开源建筑\\chinese\\chinese_castle_02\\chinese_castle_02_unique.dds",
+      "sha256": "5081bbfd5232e4e2c433189dd007fa571bc8df3f4598f93664b90db73554a02e",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\开源建筑\\chinese\\chinese_castle_03\\chinese_castle_03_unique.dds",
+      "sha256": "08fab8c73a2e0a170a4345b8c35e0e6b76b15ea4720e6ccc44b7804f0f8e0b05",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\开源建筑\\chinese\\chinese_castle_04\\chinese_castle_04_unique.dds",
+      "sha256": "1f70093f005adeee0220890eb0655e47a5b99cba743654a68cd564ab5701786b",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Crusader Kings III\\game\\gfx\\models\\buildings\\holdings\\atlas\\asian\\building_asia_atlas_1_a_diffuse.dds",
+      "sha256": "f7b871182e20326cd75f0d8d340e265b1483a141de2baf4bb64d42b6a75b00c9",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Crusader Kings III\\game\\gfx\\models\\mapitems\\bridges\\tgp_chinese_bridge_01_unique.dds",
+      "sha256": "50514660888e736b2d6499c1583081d8ddab7e0764079526970e5620e21031d8",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Crusader Kings III\\game\\gfx\\models\\buildings\\holdings\\atlas\\asian\\building_asia_atlas_1_a_normal.dds",
+      "sha256": "948d832a53e4306541ed6296afcd842f104abb7802c11cf466f90fd4b2292bc1",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Crusader Kings III\\game\\gfx\\models\\buildings\\holdings\\atlas\\asian\\building_asia_atlas_1_a_properties.dds",
+      "sha256": "8bbf982aa7b73398e84c2f81aaa39e23081c1c0fbe1127bf55eac2018290492e",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\开源建筑\\chinese\\chinese_city_01\\chinese_city_01.mesh",
+      "sha256": "b0267373292d2644cdf1ca4907f8f2b86ded352d6c13f12854cc9360b01c123b",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\开源建筑\\chinese\\chinese_city_02\\chinese_city_02.mesh",
+      "sha256": "7bb9dfddfdd3c517b1e857a62beff99e3f32c9aa44f8010e475714b787ab3f86",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\开源建筑\\chinese\\chinese_sprawl\\city_chinese.mesh",
+      "sha256": "5855520435fd232a43226710eea6d6e94855d32bac8929546fd110acea212b01",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Crusader Kings III\\game\\gfx\\models\\mapitems\\bridges\\tgp_chinese_bridge_01.mesh",
+      "sha256": "645a3619c78e3ef335ac8226ae4f866d2eedce2bba4f4c7e24afcafcacbcf805",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\开源建筑\\chinese\\chinese_castle_02\\chinese_castle_02.mesh",
+      "sha256": "9e74848a30c1ec3d9511b319f9317fc9b38201ac01666d9ef0db85a02344f6b4",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\开源建筑\\chinese\\chinese_castle_03\\chinese_castle_03.mesh",
+      "sha256": "a4f064fff661e58a09faf5fd807117b3ce3cdb3cf7f02d2f13607408c81c7b44",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\开源建筑\\chinese\\chinese_castle_04\\chinese_castle_04.mesh",
+      "sha256": "5ed6d23dec836932057fe011cdb681afe3d1ce9d2a35490ff8ddba7c7567c8c4",
+      "unchanged": true
+    },
+    {
+      "path": "F:\\开源建筑\\chinese\\chinese_walls_04\\chinese_walls_04.mesh",
+      "sha256": "97c04824cd95b723cbf6a3e492e5bad3b10e1688504d9cb96bc43cdb3c114225",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdianqun_01\\hd_handai_gongdianqun_01_diffuse.dds",
+      "sha256": "04c12a7d8d6527c680fe51968d5c1c715a6d27c3710f12c310fbc95fae77c5fc",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdianqun_01\\hd_handai_gongdianqun_01_normal.dds",
+      "sha256": "bc3abcfe76318ddcd98b2b497eb7e9e7844cb26958dfbb71d0130e1e4a9ee02a",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdianqun_01\\hd_handai_gongdianqun_01_properties.dds",
+      "sha256": "5eeb8d5f3722e596a79696e9be5ebbd95c035d22db075401fdaa60647e903450",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdianqun_01\\hd_handai_gongdianqun_01.mesh",
+      "sha256": "5ea5331be1e2eec0801951ee714799286df30ebccf3a3c919381dee9eac48292",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_01\\hd_handai_yuanluoqun_01_diffuse.dds",
+      "sha256": "e6fe0f6631065c0c29819582504bf35c5685bacc0b17623b836b98dd216dec44",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_01\\hd_handai_yuanluoqun_01_normal.dds",
+      "sha256": "f9d1f5059408a3709090647a36bedaeb98c9179f1644eb63fb8d5925ac466043",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_01\\hd_handai_yuanluoqun_01_properties.dds",
+      "sha256": "5eeb8d5f3722e596a79696e9be5ebbd95c035d22db075401fdaa60647e903450",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_01\\hd_handai_yuanluoqun_01.mesh",
+      "sha256": "519503bbd0fd19bf8181a83f5404904943c7b23050bb62d060c2da1a625e6e50",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_02\\hd_handai_yuanluoqun_02_diffuse.dds",
+      "sha256": "273855bd35faa6dc0e05ba0c0bffc2554066bff447e88086cc4d2b3044d29e28",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_02\\hd_handai_yuanluoqun_02_normal.dds",
+      "sha256": "3a38506d294f34e9384a051a743c3cebc3651253a3062c4a192583c943d3b103",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_02\\hd_handai_yuanluoqun_02_properties.dds",
+      "sha256": "5eeb8d5f3722e596a79696e9be5ebbd95c035d22db075401fdaa60647e903450",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_02\\hd_handai_yuanluoqun_02.mesh",
+      "sha256": "da698d444bfe5321b19b731dcee3ea769e9682cb303cff2e8970fa5ffc780733",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_03\\hd_handai_yuanluoqun_03_diffuse.dds",
+      "sha256": "fc7d4970f0be25fa0cd73b8396f4f20213020812af12ebc42869915bb6ba8a9a",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_03\\hd_handai_yuanluoqun_03_normal.dds",
+      "sha256": "d1bebcb619748e168f2c258c7c9dbca8276b53e62974e9186058012a1f57ade7",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_03\\hd_handai_yuanluoqun_03_properties.dds",
+      "sha256": "5eeb8d5f3722e596a79696e9be5ebbd95c035d22db075401fdaa60647e903450",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_03\\hd_handai_yuanluoqun_03.mesh",
+      "sha256": "55bb4b3cc1955226d1de32b0bd8e0d534390c41f80760c9f125dc0d783210f78",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_04\\hd_handai_yuanluoqun_04_diffuse.dds",
+      "sha256": "82289f7de8f2b1876aeecb0ba63add87303f5fdd272e0ce2b48fd5223ec65abf",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_04\\hd_handai_yuanluoqun_04_normal.dds",
+      "sha256": "2b5ea31cd70ed72e4f53871c08ed3ed4a036e98632eabddd800ec8a8dd7638ee",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_04\\hd_handai_yuanluoqun_04_properties.dds",
+      "sha256": "5eeb8d5f3722e596a79696e9be5ebbd95c035d22db075401fdaa60647e903450",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_04\\hd_handai_yuanluoqun_04.mesh",
+      "sha256": "999b425f56123dfd4b50d49364936c08349e27e26ffaa1ee0a0e11240affde12",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdian_01\\hd_handai_gongdian_01_diffuse.dds",
+      "sha256": "189932b66aafa39f0b7bf329cb42e93c0b1f7b359b709a62467b7002e2922c6a",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdian_01\\hd_handai_gongdian_01_normal.dds",
+      "sha256": "db67034f4c83e1f5a6f63a511b31aea943562ab28f4843e9c9510fb0960a67e5",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdian_01\\hd_handai_gongdian_01_properties.dds",
+      "sha256": "be0447c54e09a9c933e261cc17dcc9984b22667a10cee4effdeea6f524199d49",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdian_01\\hd_handai_gongdian_01.mesh",
+      "sha256": "8d8caafdffdebcde3f84bd20e0ae969cb26bbe3acecc4174956b0f7ee3c9ab2e",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdian_02\\hd_handai_gongdian_02_diffuse.dds",
+      "sha256": "979802512202c77a26e98b1ff6f494fe9d00b9c7089c334665d2b44336deaf70",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdian_02\\hd_handai_gongdian_02_normal.dds",
+      "sha256": "6194950f39d00188756d9aeb875b7100e20b3ec81e96a1b8755cc8249d45d52a",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdian_02\\hd_handai_gongdian_02_properties.dds",
+      "sha256": "be0447c54e09a9c933e261cc17dcc9984b22667a10cee4effdeea6f524199d49",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdian_02\\hd_handai_gongdian_02.mesh",
+      "sha256": "5126921b4d2f9e6f89bdda73e703e39aea7c74cdfc1ee1e13c0e4b9c67e98130",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdian_03\\hd_handai_gongdian_03_diffuse.dds",
+      "sha256": "d27d9ed36af515c2ac84a72ecc7e3fcd7339cdb14d77fb3d198916402a56b62b",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdian_03\\hd_handai_gongdian_03_normal.dds",
+      "sha256": "fae57f9047db87351c450dc0739f68c76aa2eff9f11cf1d0f321400a5141f40d",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdian_03\\hd_handai_gongdian_03_properties.dds",
+      "sha256": "be0447c54e09a9c933e261cc17dcc9984b22667a10cee4effdeea6f524199d49",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdian_03\\hd_handai_gongdian_03.mesh",
+      "sha256": "5a12f4203cccf847631f6e14252b79186d7fee087033521531781fa3b06d9f14",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_qiandian_01\\hd_handai_qiandian_01_diffuse.dds",
+      "sha256": "de20dd917067ee87d947e7a83dfd855b8768e6818e2a5690184a702124c99065",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_qiandian_01\\hd_handai_qiandian_01_normal.dds",
+      "sha256": "d15d6639546fb15890fe8f8621acf7feaa24c7f59128bd541996dec2bcfb7648",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_qiandian_01\\hd_handai_qiandian_01_properties.dds",
+      "sha256": "be0447c54e09a9c933e261cc17dcc9984b22667a10cee4effdeea6f524199d49",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_qiandian_01\\hd_handai_qiandian_01.mesh",
+      "sha256": "0b99bf6659d94196ce96110c099976c9a32dd54ced63fb34ae34b5fd2304db56",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_piandian_01\\hd_handai_piandian_01_diffuse.dds",
+      "sha256": "dc6232e5b8b4df2de814ccafa1f150d20d6b60a920d8a35c07e07c504f7c4b44",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_piandian_01\\hd_handai_piandian_01_normal.dds",
+      "sha256": "4f2579b1a47ae6658ad813e90dca45a1e332344c9260ac22b660aeb871d4a3e1",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_piandian_01\\hd_handai_piandian_01_properties.dds",
+      "sha256": "be0447c54e09a9c933e261cc17dcc9984b22667a10cee4effdeea6f524199d49",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_piandian_01\\hd_handai_piandian_01.mesh",
+      "sha256": "8617f0c45b8cb54ef7060d737e5373af4f63f151936f23a71c8fd31f1a3c4702",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_piandian_02\\hd_handai_piandian_02_diffuse.dds",
+      "sha256": "90e0add97d3539a4899b23b628e08c92714ef65ced094321b394be22ac3bbab8",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_piandian_02\\hd_handai_piandian_02_normal.dds",
+      "sha256": "0ba6472c2801e39e0b5631293fbb26743502b38b75765f3a14ab6438700e94bb",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_piandian_02\\hd_handai_piandian_02_properties.dds",
+      "sha256": "be0447c54e09a9c933e261cc17dcc9984b22667a10cee4effdeea6f524199d49",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_piandian_02\\hd_handai_piandian_02.mesh",
+      "sha256": "84bf7c5172f93d74e482d558845647dc7ced738f2015f0af098c5d0507bb1be7",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_huilang_01_01\\hd_handai_huilang_01_01_diffuse.dds",
+      "sha256": "9b9c418d5f5dcdf5197ff97a2e944e2148da622d6dc750b1de69f1662831decf",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_huilang_01_01\\hd_handai_huilang_01_01_normal.dds",
+      "sha256": "07bc453f7e3b80fa782a22c0a0c44d4e7157e83df561153e816d1ef7d98c5a0f",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_huilang_01_01\\hd_handai_huilang_01_01_properties.dds",
+      "sha256": "be0447c54e09a9c933e261cc17dcc9984b22667a10cee4effdeea6f524199d49",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_huilang_01_01\\hd_handai_huilang_01_01.mesh",
+      "sha256": "aca8750bb51e0f46ee591e257ba8bf4df57e398152be03d2820bbef798c238fc",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanmen_01\\hd_handai_yuanmen_01_diffuse.dds",
+      "sha256": "d4b8cf37cbb7ba8a7013b1e451ede8324deb07cd89b1d9d773db1374d2602531",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanmen_01\\hd_handai_yuanmen_01_normal.dds",
+      "sha256": "a6be91b86d8f7dca58de80f3ee8b410eed0ca45624194496018cbc3937e315c2",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanmen_01\\hd_handai_yuanmen_01_properties.dds",
+      "sha256": "be0447c54e09a9c933e261cc17dcc9984b22667a10cee4effdeea6f524199d49",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanmen_01\\hd_handai_yuanmen_01.mesh",
+      "sha256": "f917a9ad53a26ef0b8d4a1ba7c321ead78accecfb5d76ffab335b69597b8f3e0",
+      "unchanged": true
+    }
+  ],
+  "entrances": {
+    "city_1_house_00": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -0.6586373150348663
+      ]
+    },
+    "city_1_house_01": {
+      "direction": [
+        -1,
+        0
+      ],
+      "offset": 0,
+      "local_door": [
+        -0.5847317576408386,
+        0.0
+      ]
+    },
+    "city_1_house_03": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -0.47486963868141174
+      ]
+    },
+    "city_1_house_05": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -0.5253022313117981
+      ]
+    },
+    "city_2_house_00": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -0.6586371958255768
+      ]
+    },
+    "city_2_house_01": {
+      "direction": [
+        -1,
+        0
+      ],
+      "offset": 0,
+      "local_door": [
+        -0.4961153268814087,
+        0.0
+      ]
+    },
+    "city_2_house_07": {
+      "direction": [
+        -1,
+        0
+      ],
+      "offset": 0,
+      "local_door": [
+        -0.44293051958084106,
+        0.0
+      ]
+    },
+    "city_2_house_09": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -0.2870336174964905
+      ]
+    },
+    "city_house_00": {
+      "direction": [
+        -1,
+        0
+      ],
+      "offset": 0,
+      "local_door": [
+        -0.5292433500289917,
+        0.0
+      ]
+    },
+    "city_house_02": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -0.6059465408325195
+      ]
+    },
+    "city_house_08": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -0.4699391722679138
+      ]
+    },
+    "castle_2": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -1.6584651470184326
+      ]
+    },
+    "castle_3": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -2.122943341732025
+      ]
+    },
+    "castle_4": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -2.533553957939148
+      ]
+    },
+    "hd_handai_gongdianqun_01": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -5.973301887512207
+      ]
+    },
+    "hd_handai_yuanluoqun_01": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0.48,
+      "local_door": [
+        0.48,
+        -3.18351948261261
+      ]
+    },
+    "hd_handai_yuanluoqun_02": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -3.5367283821105957
+      ]
+    },
+    "hd_handai_yuanluoqun_03": {
+      "direction": [
+        1,
+        0
+      ],
+      "offset": -0.2,
+      "local_door": [
+        2.366534948348999,
+        -0.2
+      ]
+    },
+    "hd_handai_yuanluoqun_04": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": -0.48,
+      "local_door": [
+        -0.48,
+        -4.115826606750488
+      ]
+    },
+    "hd_handai_gongdian_01": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -1.5192862749099731
+      ]
+    },
+    "hd_handai_gongdian_02": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -1.5004478693008423
+      ]
+    },
+    "hd_handai_gongdian_03": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -1.5683085918426514
+      ]
+    },
+    "hd_handai_qiandian_01": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -1.5264568328857422
+      ]
+    },
+    "hd_handai_piandian_01": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -0.7749999761581421
+      ]
+    },
+    "hd_handai_piandian_02": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -0.7749999761581421
+      ]
+    },
+    "hd_handai_huilang_01_01": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -0.32620349526405334
+      ]
+    },
+    "hd_handai_yuanmen_01": {
+      "direction": [
+        0,
+        -1
+      ],
+      "offset": 0,
+      "local_door": [
+        0.0,
+        -0.21081141382455826
+      ]
+    }
+  },
+  "materials": {
+    "bridge": {
+      "diffuse": "D:\\SteamLibrary\\steamapps\\common\\Crusader Kings III\\game\\gfx\\models\\buildings\\holdings\\atlas\\asian\\building_asia_atlas_1_a_diffuse.dds",
+      "normal": "D:\\SteamLibrary\\steamapps\\common\\Crusader Kings III\\game\\gfx\\models\\buildings\\holdings\\atlas\\asian\\building_asia_atlas_1_a_normal.dds",
+      "properties": "D:\\SteamLibrary\\steamapps\\common\\Crusader Kings III\\game\\gfx\\models\\buildings\\holdings\\atlas\\asian\\building_asia_atlas_1_a_properties.dds",
+      "unique": "D:\\SteamLibrary\\steamapps\\common\\Crusader Kings III\\game\\gfx\\models\\mapitems\\bridges\\tgp_chinese_bridge_01_unique.dds",
+      "shader": "snap_to_terrain_atlas"
+    },
+    "castle_2": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_properties.dds",
+      "unique": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\chinese_castle_02_unique.dds",
+      "shader": "snap_to_terrain_atlas"
+    },
+    "castle_3": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_properties.dds",
+      "unique": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\chinese_castle_03_unique.dds",
+      "shader": "snap_to_terrain_atlas"
+    },
+    "castle_4": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_properties.dds",
+      "unique": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\chinese_castle_04_unique.dds",
+      "shader": "snap_to_terrain_atlas"
+    },
+    "city": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_properties.dds",
+      "unique": null,
+      "shader": "snap_to_terrain"
+    },
+    "city_1": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_properties.dds",
+      "unique": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\chinese_city_01_unique.dds",
+      "shader": "snap_to_terrain_atlas"
+    },
+    "city_2": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_properties.dds",
+      "unique": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\chinese_city_02_unique.dds",
+      "shader": "snap_to_terrain_atlas"
+    },
+    "hd_handai_gongdian_02": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_gongdian_02_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_gongdian_02_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_gongdian_02_properties.dds",
+      "unique": null,
+      "shader": "snap_to_terrain"
+    },
+    "hd_handai_gongdianqun_01": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_gongdianqun_01_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_gongdianqun_01_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_gongdianqun_01_properties.dds",
+      "unique": null,
+      "shader": "snap_to_terrain"
+    },
+    "hd_handai_huilang_01_01": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_huilang_01_01_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_huilang_01_01_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_huilang_01_01_properties.dds",
+      "unique": null,
+      "shader": "snap_to_terrain"
+    },
+    "hd_handai_piandian_01": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_piandian_01_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_piandian_01_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_piandian_01_properties.dds",
+      "unique": null,
+      "shader": "snap_to_terrain"
+    },
+    "hd_handai_piandian_02": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_piandian_02_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_piandian_02_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_piandian_02_properties.dds",
+      "unique": null,
+      "shader": "snap_to_terrain"
+    },
+    "hd_handai_yuanluoqun_01": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_yuanluoqun_01_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_yuanluoqun_01_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_yuanluoqun_01_properties.dds",
+      "unique": null,
+      "shader": "snap_to_terrain"
+    },
+    "hd_handai_yuanluoqun_02": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_yuanluoqun_02_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_yuanluoqun_02_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_yuanluoqun_02_properties.dds",
+      "unique": null,
+      "shader": "snap_to_terrain"
+    },
+    "hd_handai_yuanluoqun_03": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_yuanluoqun_03_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_yuanluoqun_03_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_yuanluoqun_03_properties.dds",
+      "unique": null,
+      "shader": "snap_to_terrain"
+    },
+    "hd_handai_yuanluoqun_04": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_yuanluoqun_04_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_yuanluoqun_04_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_yuanluoqun_04_properties.dds",
+      "unique": null,
+      "shader": "snap_to_terrain"
+    },
+    "hd_handai_yuanmen_01": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_yuanmen_01_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_yuanmen_01_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_handai_yuanmen_01_properties.dds",
+      "unique": null,
+      "shader": "snap_to_terrain"
+    },
+    "wall": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\east_asian_atlas_properties.dds",
+      "unique": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\chinese_walls_04_unique.dds",
+      "shader": "snap_to_terrain_atlas"
+    },
+    "road": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_jiankang_road_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_jiankang_road_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_jiankang_road_properties.dds",
+      "shader": "decal_local",
+      "shader_file": "gfx/FX/pdxmesh_decal.shader",
+      "subpass": "LocalDecals"
+    },
+    "water": {
+      "diffuse": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_jiankang_water_diffuse.dds",
+      "normal": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_jiankang_water_normal.dds",
+      "properties": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\special\\hd_jiankang_city\\hd_jiankang_water_properties.dds",
+      "shader": "decal_local",
+      "shader_file": "gfx/FX/pdxmesh_decal.shader",
+      "subpass": "LocalDecals"
+    }
+  },
+  "parts": {
+    "city_1_house_00": {
+      "dimensions": [
+        1.4007894098758698,
+        1.3172746300697327,
+        0.9181481301784515
+      ],
+      "triangles": 494,
+      "material": "city_1",
+      "source": "city_1",
+      "offset": [
+        0.9008132666349411,
+        -1.098409742116928,
+        -0.10753533244132996
+      ]
+    },
+    "city_1_house_01": {
+      "dimensions": [
+        1.1694635152816772,
+        1.400789499282837,
+        0.8672892451286316
+      ],
+      "triangles": 494,
+      "material": "city_1",
+      "source": "city_1",
+      "offset": [
+        -1.0351566672325134,
+        1.3158763647079468,
+        -0.013749241828918457
+      ]
+    },
+    "city_1_house_02": {
+      "dimensions": [
+        0.5544479051604867,
+        0.5780370086431503,
+        0.7472580373287201
+      ],
+      "triangles": 358,
+      "material": "city_1",
+      "source": "city_1",
+      "offset": [
+        0.2639059345237911,
+        0.22458869963884354,
+        -0.029475539922714233
+      ]
+    },
+    "city_1_house_03": {
+      "dimensions": [
+        1.4876787662506104,
+        0.9497392773628235,
+        0.857443779706955
+      ],
+      "triangles": 180,
+      "material": "city_1",
+      "source": "city_1",
+      "offset": [
+        0.8707531690597534,
+        1.337075561285019,
+        -0.09578242897987366
+      ]
+    },
+    "city_1_house_04": {
+      "dimensions": [
+        1.2239448428153992,
+        1.183617740869522,
+        0.7966150939464569
+      ],
+      "triangles": 259,
+      "material": "city_1",
+      "source": "city_1",
+      "offset": [
+        -1.2689159214496613,
+        -0.10452423989772797,
+        -0.06628552079200745
+      ]
+    },
+    "city_1_house_05": {
+      "dimensions": [
+        1.253245770931244,
+        1.0506044626235962,
+        0.7966150939464569
+      ],
+      "triangles": 180,
+      "material": "city_1",
+      "source": "city_1",
+      "offset": [
+        -1.0055862963199615,
+        -1.2390461564064026,
+        -0.06628552079200745
+      ]
+    },
+    "city_1_house_06": {
+      "dimensions": [
+        0.6644405126571655,
+        0.8915725946426392,
+        0.7966150939464569
+      ],
+      "triangles": 180,
+      "material": "city_1",
+      "source": "city_1",
+      "offset": [
+        1.2424970269203186,
+        0.1397329568862915,
+        -0.06628552079200745
+      ]
+    },
+    "city_2_house_00": {
+      "dimensions": [
+        1.7326040863990784,
+        1.3172743916511536,
+        1.2620144337415695
+      ],
+      "triangles": 494,
+      "material": "city_2",
+      "source": "city_2",
+      "offset": [
+        -1.497453898191452,
+        1.313207358121872,
+        -0.2250836342573166
+      ]
+    },
+    "city_2_house_01": {
+      "dimensions": [
+        0.9922306537628174,
+        1.8218972086906433,
+        1.1921078264713287
+      ],
+      "triangles": 494,
+      "material": "city_2",
+      "source": "city_2",
+      "offset": [
+        1.6762162446975708,
+        0.3924533426761627,
+        -0.09617260098457336
+      ]
+    },
+    "city_2_house_02": {
+      "dimensions": [
+        1.1505274344235659,
+        1.5777122378349304,
+        1.1415812149643898
+      ],
+      "triangles": 832,
+      "material": "city_2",
+      "source": "city_2",
+      "offset": [
+        0.5895523047074676,
+        -1.518611341714859,
+        -0.06799200922250748
+      ]
+    },
+    "city_2_house_03": {
+      "dimensions": [
+        0.5934013277292252,
+        0.5657409429550171,
+        1.0663074180483818
+      ],
+      "triangles": 358,
+      "material": "city_2",
+      "source": "city_2",
+      "offset": [
+        0.49552833288908005,
+        1.7033455967903137,
+        -0.11778872460126877
+      ]
+    },
+    "city_2_house_04": {
+      "dimensions": [
+        0.8901018798351288,
+        0.8486121892929077,
+        1.5912055596709251
+      ],
+      "triangles": 716,
+      "material": "city_2",
+      "source": "city_2",
+      "offset": [
+        -0.8784346729516983,
+        -0.08567863702774048,
+        -0.059878431260585785
+      ]
+    },
+    "city_2_house_05": {
+      "dimensions": [
+        0.7114191055297852,
+        1.1016971170902252,
+        0.9096073433756828
+      ],
+      "triangles": 344,
+      "material": "city_2",
+      "source": "city_2",
+      "offset": [
+        -1.9767448902130127,
+        -0.21565406024456024,
+        -0.07616405934095383
+      ]
+    },
+    "city_2_house_06": {
+      "dimensions": [
+        1.3839571475982666,
+        1.5358694791793823,
+        0.9415482580661774
+      ],
+      "triangles": 347,
+      "material": "city_2",
+      "source": "city_2",
+      "offset": [
+        -1.401671051979065,
+        -1.6470771431922913,
+        -0.17600634694099426
+      ]
+    },
+    "city_2_house_07": {
+      "dimensions": [
+        0.8858610391616821,
+        1.403792917728424,
+        1.0949645787477493
+      ],
+      "triangles": 180,
+      "material": "city_2",
+      "source": "city_2",
+      "offset": [
+        1.7217790484428406,
+        -1.5315248668193817,
+        -0.1683848649263382
+      ]
+    },
+    "city_2_house_08": {
+      "dimensions": [
+        1.2678864896297455,
+        1.5779684484004974,
+        0.9560633823275566
+      ],
+      "triangles": 518,
+      "material": "city_2",
+      "source": "city_2",
+      "offset": [
+        0.4691144973039627,
+        0.41505809128284454,
+        -0.07616405934095383
+      ]
+    },
+    "city_2_house_09": {
+      "dimensions": [
+        0.8483041524887085,
+        0.574067234992981,
+        0.7283454090356827
+      ],
+      "triangles": 344,
+      "material": "city_2",
+      "source": "city_2",
+      "offset": [
+        1.3949068188667297,
+        1.7796596884727478,
+        -0.03978551924228668
+      ]
+    },
+    "city_house_00": {
+      "dimensions": [
+        1.0584867000579834,
+        1.4514949321746826,
+        1.1415812075138092
+      ],
+      "triangles": 708,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        3.506005883216858,
+        -4.100895524024963,
+        -0.06799200177192688
+      ]
+    },
+    "city_house_01": {
+      "dimensions": [
+        0.8531365394592285,
+        0.8685855865478516,
+        1.9882199615240097
+      ],
+      "triangles": 741,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        0.9841135740280151,
+        -4.5299973487854,
+        -0.22512172162532806
+      ]
+    },
+    "city_house_02": {
+      "dimensions": [
+        1.5939955711364746,
+        1.211893081665039,
+        1.2620144486427307
+      ],
+      "triangles": 441,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -2.5536792278289795,
+        -4.086262226104736,
+        -0.22508364915847778
+      ]
+    },
+    "city_house_03": {
+      "dimensions": [
+        1.45149564743042,
+        1.058485507965088,
+        1.139230728149414
+      ],
+      "triangles": 702,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -5.26898455619812,
+        -0.99326491355896,
+        -0.1949443817138672
+      ]
+    },
+    "city_house_04": {
+      "dimensions": [
+        1.5939957648515701,
+        1.0264010429382324,
+        1.2620144486427307
+      ],
+      "triangles": 435,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -0.8311074003577232,
+        4.809605836868286,
+        -0.22508364915847778
+      ]
+    },
+    "city_house_05": {
+      "dimensions": [
+        0.9128520488739014,
+        1.6761452555656433,
+        1.1921077966690063
+      ],
+      "triangles": 430,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -3.97917377948761,
+        0.7695578634738922,
+        -0.09617257118225098
+      ]
+    },
+    "city_house_06": {
+      "dimensions": [
+        0.9128519296646118,
+        1.676145076751709,
+        1.1921078264713287
+      ],
+      "triangles": 430,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        2.088669717311859,
+        4.231280565261841,
+        -0.09617260098457336
+      ]
+    },
+    "city_house_07": {
+      "dimensions": [
+        0.8531363606452942,
+        0.8685860633850098,
+        1.9882199615240097
+      ],
+      "triangles": 729,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -0.9709932506084442,
+        -4.602980375289917,
+        -0.22512172162532806
+      ]
+    },
+    "city_house_08": {
+      "dimensions": [
+        1.2887263298034668,
+        0.9398783445358276,
+        0.9181481301784515
+      ],
+      "triangles": 414,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -5.819077730178833,
+        -2.2086504101753235,
+        -0.10753533244132996
+      ]
+    },
+    "city_house_09": {
+      "dimensions": [
+        1.770371913909912,
+        2.590801477432251,
+        0.8575909584760666
+      ],
+      "triangles": 594,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        5.063268423080444,
+        -3.93678081035614,
+        -0.09592960774898529
+      ]
+    },
+    "city_house_10": {
+      "dimensions": [
+        1.2887260913848877,
+        1.068882942199707,
+        0.8344650901854038
+      ],
+      "triangles": 414,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -0.8989464044570923,
+        6.2292704582214355,
+        -0.011610690504312515
+      ]
+    },
+    "city_house_11": {
+      "dimensions": [
+        0.8919377326965332,
+        1.2887263298034668,
+        0.818575918674469
+      ],
+      "triangles": 410,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        3.938415288925171,
+        2.079007625579834,
+        -0.09587323665618896
+      ]
+    },
+    "city_house_12": {
+      "dimensions": [
+        0.818893313407898,
+        0.7807235717773438,
+        1.5912055373191833
+      ],
+      "triangles": 666,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -1.9841821789741516,
+        -5.3732380867004395,
+        -0.059878408908843994
+      ]
+    },
+    "city_house_13": {
+      "dimensions": [
+        0.8188933283090591,
+        0.7807233333587646,
+        1.5157357156276703
+      ],
+      "triangles": 664,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -0.26160942763090134,
+        3.791399121284485,
+        -0.05987843871116638
+      ]
+    },
+    "city_house_14": {
+      "dimensions": [
+        0.545928955078125,
+        0.5204813480377197,
+        1.0663074254989624
+      ],
+      "triangles": 264,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -5.065406322479248,
+        1.9755786657333374,
+        -0.11778873205184937
+      ]
+    },
+    "city_house_15": {
+      "dimensions": [
+        0.545928955078125,
+        0.5204813480377197,
+        1.0663073658943176
+      ],
+      "triangles": 268,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        2.9093050956726074,
+        3.8994964361190796,
+        -0.11778867244720459
+      ]
+    },
+    "city_house_16": {
+      "dimensions": [
+        1.3657050132751465,
+        1.2914894819259644,
+        1.0949645787477493
+      ],
+      "triangles": 442,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        4.084566354751587,
+        -2.531778395175934,
+        -0.1683848649263382
+      ]
+    },
+    "city_house_17": {
+      "dimensions": [
+        0.5100922584533691,
+        0.5317935943603516,
+        0.7472580373287201
+      ],
+      "triangles": 258,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        2.8622684478759766,
+        4.784705638885498,
+        -0.029475539922714233
+      ]
+    },
+    "city_house_18": {
+      "dimensions": [
+        0.51009202003479,
+        0.5317940711975098,
+        0.7472580373287201
+      ],
+      "triangles": 256,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -3.605856776237488,
+        4.5878260135650635,
+        -0.029475539922714233
+      ]
+    },
+    "city_house_19": {
+      "dimensions": [
+        1.0889282077550888,
+        1.118678092956543,
+        0.852775864303112
+      ],
+      "triangles": 259,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        0.6704361513257027,
+        6.225583076477051,
+        -0.10510646551847458
+      ]
+    },
+    "city_house_20": {
+      "dimensions": [
+        1.1664552688598633,
+        1.4517316818237305,
+        0.9560633897781372
+      ],
+      "triangles": 518,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        0.9781360626220703,
+        4.252077102661133,
+        -0.07616406679153442
+      ]
+    },
+    "city_house_21": {
+      "dimensions": [
+        1.1664557456970215,
+        1.451731190085411,
+        0.9560633897781372
+      ],
+      "triangles": 513,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -5.089707136154175,
+        0.7903547361493111,
+        -0.07616406679153442
+      ]
+    },
+    "city_house_22": {
+      "dimensions": [
+        0.654505729675293,
+        1.013561725616455,
+        0.9096073508262634
+      ],
+      "triangles": 344,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -2.994626998901367,
+        -5.492814779281616,
+        -0.07616406679153442
+      ]
+    },
+    "city_house_23": {
+      "dimensions": [
+        1.412999153137207,
+        1.273240566253662,
+        0.9415481984615326
+      ],
+      "triangles": 346,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -2.507848024368286,
+        4.128357648849487,
+        -0.1760062873363495
+      ]
+    },
+    "city_house_24": {
+      "dimensions": [
+        0.8149921894073486,
+        1.2914895117282867,
+        1.0949645638465881
+      ],
+      "triangles": 180,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -3.9372557401657104,
+        -1.0005025118589401,
+        -0.168384850025177
+      ]
+    },
+    "city_house_25": {
+      "dimensions": [
+        0.7804398536682129,
+        0.5281418561935425,
+        0.7283453941345215
+      ],
+      "triangles": 344,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -4.237978219985962,
+        2.0457881093025208,
+        -0.03978550434112549
+      ]
+    },
+    "city_house_26": {
+      "dimensions": [
+        1.368664264678955,
+        0.8737603425979614,
+        0.857443779706955
+      ],
+      "triangles": 180,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -6.389079332351685,
+        1.86395663022995,
+        -0.09578242897987366
+      ]
+    },
+    "city_house_27": {
+      "dimensions": [
+        0.6112847328186035,
+        0.820246696472168,
+        0.7966150939464569
+      ],
+      "triangles": 180,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -6.486017465591431,
+        0.7624014616012573,
+        -0.06628552079200745
+      ]
+    },
+    "city_house_28": {
+      "dimensions": [
+        1.291490077972412,
+        1.055333137512207,
+        1.0949645787477493
+      ],
+      "triangles": 180,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -4.289775609970093,
+        -2.3355250358581543,
+        -0.1683848649263382
+      ]
+    },
+    "city_house_29": {
+      "dimensions": [
+        0.6167998313903809,
+        0.824347972869873,
+        0.7966150939464569
+      ],
+      "triangles": 180,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -3.7034685611724854,
+        5.952026128768921,
+        -0.06628552079200745
+      ]
+    },
+    "city_house_30": {
+      "dimensions": [
+        0.6167997121810913,
+        0.824347972869873,
+        0.7966150939464569
+      ],
+      "triangles": 180,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -2.233328640460968,
+        5.8765904903411865,
+        -0.06628552079200745
+      ]
+    },
+    "city_house_31": {
+      "dimensions": [
+        0.6167995929718018,
+        0.824347972869873,
+        0.7966150939464569
+      ],
+      "triangles": 180,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -2.980277180671692,
+        5.9433228969573975,
+        -0.06628552079200745
+      ]
+    },
+    "city_house_32": {
+      "dimensions": [
+        0.6167992353439331,
+        0.824347972869873,
+        0.7966150939464569
+      ],
+      "triangles": 180,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        1.8412554860115051,
+        -5.680148363113403,
+        -0.06628552079200745
+      ]
+    },
+    "city_house_33": {
+      "dimensions": [
+        0.6168003082275391,
+        0.8243484497070312,
+        0.7966150939464569
+      ],
+      "triangles": 180,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        3.3113954067230225,
+        -5.755584239959717,
+        -0.06628552079200745
+      ]
+    },
+    "city_house_34": {
+      "dimensions": [
+        0.6167991161346436,
+        0.824347972869873,
+        0.7966150939464569
+      ],
+      "triangles": 180,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        2.564446806907654,
+        -5.688851594924927,
+        -0.06628552079200745
+      ]
+    },
+    "city_house_35": {
+      "dimensions": [
+        0.8149914741516113,
+        1.2914893925189972,
+        1.0949645787477493
+      ],
+      "triangles": 180,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        3.8092095851898193,
+        -0.14998696744441986,
+        -0.1683848649263382
+      ]
+    },
+    "city_house_36": {
+      "dimensions": [
+        1.2914891242980957,
+        0.8149921298027039,
+        1.0949645638465881
+      ],
+      "triangles": 180,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        3.994069814682007,
+        0.9574649631977081,
+        -0.168384850025177
+      ]
+    },
+    "city_house_37": {
+      "dimensions": [
+        1.368664264678955,
+        0.8737602233886719,
+        0.857443779706955
+      ],
+      "triangles": 180,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        3.420567750930786,
+        5.808193683624268,
+        -0.09578242897987366
+      ]
+    },
+    "city_house_38": {
+      "dimensions": [
+        0.6112856864929199,
+        0.820246696472168,
+        0.7966150939464569
+      ],
+      "triangles": 180,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        3.7625720500946045,
+        4.706638336181641,
+        -0.06628552079200745
+      ]
+    },
+    "city_house_39": {
+      "dimensions": [
+        0.9665555953979492,
+        1.1454591751098633,
+        0.7664657160639763
+      ],
+      "triangles": 180,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        1.885786533355713,
+        6.256297588348389,
+        -0.06215863674879074
+      ]
+    },
+    "city_house_40": {
+      "dimensions": [
+        1.0135612487792969,
+        0.6545054912567139,
+        0.9096073359251022
+      ],
+      "triangles": 344,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        -1.2692755460739136,
+        3.733861565589905,
+        -0.09563027322292328
+      ]
+    },
+    "city_house_41": {
+      "dimensions": [
+        1.2732412815093994,
+        1.4130001068115234,
+        0.9415482878684998
+      ],
+      "triangles": 346,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        2.119085907936096,
+        -4.0176777839660645,
+        -0.17600637674331665
+      ]
+    },
+    "city_house_42": {
+      "dimensions": [
+        0.7804396152496338,
+        0.5281426906585693,
+        0.7283453941345215
+      ],
+      "triangles": 344,
+      "material": "city",
+      "source": "city",
+      "offset": [
+        3.736733317375183,
+        3.9697057008743286,
+        -0.03978550434112549
+      ]
+    },
+    "bridge": {
+      "dimensions": [
+        2.200000047683716,
+        8.019999980926514,
+        3.669999837875366
+      ],
+      "triangles": 959,
+      "material": "bridge",
+      "source": "bridge",
+      "offset": [
+        0.0,
+        -2.384185791015625e-07,
+        -1.0
+      ]
+    },
+    "castle_2": {
+      "dimensions": [
+        2.754000186920166,
+        3.3169302940368652,
+        4.652217149734497
+      ],
+      "triangles": 2570,
+      "material": "castle_2",
+      "source": "castle_2",
+      "offset": [
+        -0.08459007740020752,
+        0.07629501819610596,
+        -1.213571310043335
+      ]
+    },
+    "castle_3": {
+      "dimensions": [
+        4.472178936004639,
+        4.24588668346405,
+        4.764797210693359
+      ],
+      "triangles": 4558,
+      "material": "castle_3",
+      "source": "castle_3",
+      "offset": [
+        -0.010505199432373047,
+        0.14292865991592407,
+        -1.5746722221374512
+      ]
+    },
+    "castle_4": {
+      "dimensions": [
+        5.260866641998291,
+        5.067107915878296,
+        4.542431354522705
+      ],
+      "triangles": 5218,
+      "material": "castle_4",
+      "source": "castle_4",
+      "offset": [
+        -0.008916139602661133,
+        0.11456835269927979,
+        -1.21864652633667
+      ]
+    },
+    "gate": {
+      "dimensions": [
+        1.8959877490997314,
+        1.2133519649505615,
+        2.6141330003738403
+      ],
+      "triangles": 812,
+      "material": "wall",
+      "source": "walls_4",
+      "offset": [
+        -0.03861236572265625,
+        -2.9999996423721313,
+        -0.6995199918746948
+      ]
+    },
+    "wall": {
+      "dimensions": [
+        1.4000000953674316,
+        0.9276227951049805,
+        1.6482527256011963
+      ],
+      "triangles": 198,
+      "material": "wall",
+      "source": "walls_4",
+      "offset": null
+    },
+    "corner": {
+      "dimensions": [
+        1.435190200805664,
+        1.8605570793151855,
+        2.9513744115829468
+      ],
+      "triangles": 1224,
+      "material": "wall",
+      "source": "walls_4",
+      "offset": [
+        2.8175950050354004,
+        3.030278444290161,
+        -0.9050062894821167
+      ]
+    },
+    "hd_handai_gongdianqun_01": {
+      "dimensions": [
+        11.388029098510742,
+        11.946603775024414,
+        2.687422513961792
+      ],
+      "triangles": 4423,
+      "material": "hd_handai_gongdianqun_01",
+      "source": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdianqun_01\\hd_handai_gongdianqun_01.mesh",
+      "offset": [
+        0.0,
+        0.00015306472778320312,
+        0.0
+      ]
+    },
+    "hd_handai_yuanluoqun_01": {
+      "dimensions": [
+        3.016529083251953,
+        6.36703896522522,
+        0.9015464782714844
+      ],
+      "triangles": 2997,
+      "material": "hd_handai_yuanluoqun_01",
+      "source": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_01\\hd_handai_yuanluoqun_01.mesh",
+      "offset": [
+        0.001433253288269043,
+        1.1920928955078125e-07,
+        0.0
+      ]
+    },
+    "hd_handai_yuanluoqun_02": {
+      "dimensions": [
+        3.9447360038757324,
+        7.073456764221191,
+        1.197410867724102
+      ],
+      "triangles": 2997,
+      "material": "hd_handai_yuanluoqun_02",
+      "source": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_02\\hd_handai_yuanluoqun_02.mesh",
+      "offset": [
+        0.001448988914489746,
+        5.9604644775390625e-06,
+        -0.00038115790812298656
+      ]
+    },
+    "hd_handai_yuanluoqun_03": {
+      "dimensions": [
+        4.733069896697998,
+        7.072958946228027,
+        2.1906533241271973
+      ],
+      "triangles": 1786,
+      "material": "hd_handai_yuanluoqun_03",
+      "source": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_03\\hd_handai_yuanluoqun_03.mesh",
+      "offset": [
+        0.0,
+        4.76837158203125e-07,
+        0.0
+      ]
+    },
+    "hd_handai_yuanluoqun_04": {
+      "dimensions": [
+        5.4268598556518555,
+        8.231653213500977,
+        1.0298529150313698
+      ],
+      "triangles": 4938,
+      "material": "hd_handai_yuanluoqun_04",
+      "source": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanluoqun_04\\hd_handai_yuanluoqun_04.mesh",
+      "offset": [
+        -0.0014140605926513672,
+        0.0,
+        -0.00047402404015883803
+      ]
+    },
+    "hd_handai_gongdian_01": {
+      "dimensions": [
+        4.381503105163574,
+        3.0385725498199463,
+        2.676724910736084
+      ],
+      "triangles": 920,
+      "material": "hd_handai_gongdian_01",
+      "source": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdian_01\\hd_handai_gongdian_01.mesh",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "hd_handai_gongdian_02": {
+      "dimensions": [
+        4.381503105163574,
+        3.0008957386016846,
+        2.0986037254333496
+      ],
+      "triangles": 628,
+      "material": "hd_handai_gongdian_02",
+      "source": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdian_02\\hd_handai_gongdian_02.mesh",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "hd_handai_gongdian_03": {
+      "dimensions": [
+        4.150000095367432,
+        3.1366171836853027,
+        1.7986316680908203
+      ],
+      "triangles": 1684,
+      "material": "hd_handai_gongdian_03",
+      "source": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_gongdian_03\\hd_handai_gongdian_03.mesh",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "hd_handai_qiandian_01": {
+      "dimensions": [
+        4.198369026184082,
+        3.0529136657714844,
+        1.4060364961624146
+      ],
+      "triangles": 1126,
+      "material": "hd_handai_qiandian_01",
+      "source": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_qiandian_01\\hd_handai_qiandian_01.mesh",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "hd_handai_piandian_01": {
+      "dimensions": [
+        1.79336678981781,
+        1.5499999523162842,
+        0.8202623724937439
+      ],
+      "triangles": 824,
+      "material": "hd_handai_piandian_01",
+      "source": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_piandian_01\\hd_handai_piandian_01.mesh",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "hd_handai_piandian_02": {
+      "dimensions": [
+        1.7933670282363892,
+        1.5499999523162842,
+        0.8202623724937439
+      ],
+      "triangles": 824,
+      "material": "hd_handai_piandian_02",
+      "source": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_piandian_02\\hd_handai_piandian_02.mesh",
+      "offset": [
+        5.960464477539063e-08,
+        0.0,
+        0.0
+      ]
+    },
+    "hd_handai_huilang_01_01": {
+      "dimensions": [
+        6.6375627517700195,
+        0.6524069905281067,
+        0.7310171723365784
+      ],
+      "triangles": 211,
+      "material": "hd_handai_huilang_01_01",
+      "source": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_huilang_01_01\\hd_handai_huilang_01_01.mesh",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "hd_handai_yuanmen_01": {
+      "dimensions": [
+        1.9500000476837158,
+        0.4216228276491165,
+        0.5070423483848572
+      ],
+      "triangles": 127,
+      "material": "hd_handai_yuanmen_01",
+      "source": "E:\\documents\\Paradox Interactive\\Crusader Kings III\\mod\\HanJIn_Clothes\\gfx\\models\\buildings\\handai_9280216\\hd_handai_yuanmen_01\\hd_handai_yuanmen_01.mesh",
+      "offset": [
+        0.0,
+        -3.725290298461914e-08,
+        0.0
+      ]
+    }
+  }
+}

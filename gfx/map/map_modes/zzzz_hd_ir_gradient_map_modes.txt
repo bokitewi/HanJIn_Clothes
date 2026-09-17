@@ -1,0 +1,268 @@
+﻿# HD - IR Style Realm Gradient | pre-paper 0.10 / paper 0.90 | native overlay v1.4
+# Target: CK3 1.19.0.6 / HanJIn_Clothes
+# 原生 CK3 配置；直接覆盖现有 MOD 内同名文件，无安装器或外部脚本。
+# 仅重新定义 realms / simple_realms；不替换完整 map_modes.txt。
+# 近景与纸地图统一细黑国界：距离场宽度 0.005、柔化过渡 0.002、alpha=1.00、颜色倍率 0.00；宽度不是屏幕像素。
+# zoom_step 2 / 6 / 8 / 9 / 15 / 20 / 21：内部 alpha=0.10，边缘 alpha=1.00。
+# 每个模式内，上述节点除 zoom_step 外，全部渐变与光照混合参数相同。
+# 21 为沿用上一版的纸地图起点约定；该点也维持 0.10，阻止 20->21 提前插值加深。
+# 21->22：进入纸地图区间后再逐渐增加填色；22 及其后的最远节点使用内部 alpha=0.90。
+# 不修改摄像机或 FLAT_MAP_ZOOM_STEP；实际切换节点若不是 21，必须重新对齐。
+# 不读取玩家本机游戏；不保证其他地图或摄像机 MOD 的阈值与本文件一致。
+# 不改地形、河流、DDS、着色器、衣甲、人物资源或玩法脚本。
+# 本文件没有外部变量依赖。仅静态校验，尚未启动 CK3 验证画面。
+
+realms = {
+	color_mode = selected_character_realms
+	small_map_names = counties
+	large_map_names = selected_character_realms
+	selection = selected_character_realms_or_holdings
+	fill_in_impassable = no_small_names
+
+	# 三维地形：国境浓、内部透明；各节点采用同一套渐变参数。
+	gradient_parameters = {
+		zoom_step = 2
+		gradient_alpha_inside = 0.10
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.12
+		gradient_color_mult = 0.90
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.80
+		after_lighting_blend = 0.20
+	}
+
+	# 三维地形：国境浓、内部透明；各节点采用同一套渐变参数。
+	gradient_parameters = {
+		zoom_step = 6
+		gradient_alpha_inside = 0.10
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.12
+		gradient_color_mult = 0.90
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.80
+		after_lighting_blend = 0.20
+	}
+
+	# 三维地形：国境浓、内部透明；各节点采用同一套渐变参数。
+	gradient_parameters = {
+		zoom_step = 8
+		gradient_alpha_inside = 0.10
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.12
+		gradient_color_mult = 0.90
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.80
+		after_lighting_blend = 0.20
+	}
+
+	# 三维地形：国境浓、内部透明；各节点采用同一套渐变参数。
+	gradient_parameters = {
+		zoom_step = 9
+		gradient_alpha_inside = 0.10
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.12
+		gradient_color_mult = 0.90
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.80
+		after_lighting_blend = 0.20
+	}
+
+	# 三维地形：国境浓、内部透明；各节点采用同一套渐变参数。
+	gradient_parameters = {
+		zoom_step = 15
+		gradient_alpha_inside = 0.10
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.12
+		gradient_color_mult = 0.90
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.80
+		after_lighting_blend = 0.20
+	}
+
+	# 纸地图过渡前最后一个节点：仍保持与近景完全相同的渐变参数。
+	gradient_parameters = {
+		zoom_step = 20
+		gradient_alpha_inside = 0.10
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.12
+		gradient_color_mult = 0.90
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.80
+		after_lighting_blend = 0.20
+	}
+
+	# 纸地图起点保护节点：仍为 alpha=0.10，避免在 20->21 提前加深。
+	gradient_parameters = {
+		zoom_step = 21
+		gradient_alpha_inside = 0.10
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.12
+		gradient_color_mult = 0.90
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.80
+		after_lighting_blend = 0.20
+	}
+
+	# 纸地图内继续拉远：到节点 22 达到内部 alpha=0.90。
+	gradient_parameters = {
+		zoom_step = 22
+		gradient_alpha_inside = 1
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.20
+		gradient_color_mult = 1
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.00
+		after_lighting_blend = 1.00
+	}
+}
+
+simple_realms = {
+	color_mode = realms
+	small_map_names = realms
+	large_map_names = realms
+	fill_in_impassable = yes
+
+	# 三维地形：国境浓、内部透明；各节点采用同一套渐变参数。
+	gradient_parameters = {
+		zoom_step = 2
+		gradient_alpha_inside = 0.10
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.12
+		gradient_color_mult = 0.90
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.80
+		after_lighting_blend = 0.20
+	}
+
+	# 三维地形：国境浓、内部透明；各节点采用同一套渐变参数。
+	gradient_parameters = {
+		zoom_step = 6
+		gradient_alpha_inside = 0.10
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.12
+		gradient_color_mult = 0.90
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.80
+		after_lighting_blend = 0.20
+	}
+
+	# 三维地形：国境浓、内部透明；各节点采用同一套渐变参数。
+	gradient_parameters = {
+		zoom_step = 8
+		gradient_alpha_inside = 0.10
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.12
+		gradient_color_mult = 0.90
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.80
+		after_lighting_blend = 0.20
+	}
+
+	# 三维地形：国境浓、内部透明；各节点采用同一套渐变参数。
+	gradient_parameters = {
+		zoom_step = 9
+		gradient_alpha_inside = 0.10
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.12
+		gradient_color_mult = 0.90
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.80
+		after_lighting_blend = 0.20
+	}
+
+	# 三维地形：国境浓、内部透明；各节点采用同一套渐变参数。
+	gradient_parameters = {
+		zoom_step = 15
+		gradient_alpha_inside = 0.10
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.12
+		gradient_color_mult = 0.90
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.80
+		after_lighting_blend = 0.20
+	}
+
+	# 纸地图过渡前最后一个节点：仍保持与近景完全相同的渐变参数。
+	gradient_parameters = {
+		zoom_step = 20
+		gradient_alpha_inside = 0.10
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.12
+		gradient_color_mult = 0.90
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.80
+		after_lighting_blend = 0.20
+	}
+
+	# 纸地图起点保护节点：仍为 alpha=0.10，避免在 20->21 提前加深。
+	gradient_parameters = {
+		zoom_step = 21
+		gradient_alpha_inside = 0.10
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.12
+		gradient_color_mult = 0.90
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.80
+		after_lighting_blend = 0.20
+	}
+
+	# 纸地图内继续拉远：到节点 22 达到内部 alpha=0.90。
+	gradient_parameters = {
+		zoom_step = 22
+		gradient_alpha_inside = 1
+		gradient_alpha_outside = 1.00
+		gradient_width = 0.20
+		gradient_color_mult = 1
+		edge_width = 0.005
+		edge_sharpness = 0.002
+		edge_alpha = 1.00
+		edge_color_mult = 0.00
+		before_lighting_blend = 0.00
+		after_lighting_blend = 1.00
+	}
+}
