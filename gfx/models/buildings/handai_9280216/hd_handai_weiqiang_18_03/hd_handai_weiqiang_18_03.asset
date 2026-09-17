@@ -1,0 +1,21 @@
+# 围墙段18-03；离线转换；不绑定地图省份。
+pdxmesh = {
+	name = "hd_handai_weiqiang_18_03_mesh"
+	file = "hd_handai_weiqiang_18_03.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "hd_handai_weiqiang_18_03_LOD0Shape"
+		index = 0
+		texture_diffuse = "hd_handai_weiqiang_18_03_diffuse.dds"
+		texture_normal = "hd_handai_weiqiang_18_03_normal.dds"
+		texture_specular = "hd_handai_weiqiang_18_03_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "hd_handai_weiqiang_18_03_entity"
+	pdxmesh = "hd_handai_weiqiang_18_03_mesh"
+}
+

@@ -1,0 +1,43 @@
+# 宫殿03；离线转换；不绑定地图省份。
+pdxmesh = {
+	name = "hd_handai_gongdian_03_mesh"
+	file = "hd_handai_gongdian_03.mesh"
+	scale = 1.0
+	lod_percentages = {
+		lod = { index = 1 percent = 20.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+	meshsettings = {
+		name = "hd_handai_gongdian_03_LOD0Shape"
+		index = 0
+		texture_diffuse = "hd_handai_gongdian_03_diffuse.dds"
+		texture_normal = "hd_handai_gongdian_03_normal.dds"
+		texture_specular = "hd_handai_gongdian_03_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "hd_handai_gongdian_03_LOD1Shape"
+		index = 0
+		texture_diffuse = "hd_handai_gongdian_03_diffuse.dds"
+		texture_normal = "hd_handai_gongdian_03_normal.dds"
+		texture_specular = "hd_handai_gongdian_03_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "hd_handai_gongdian_03_LOD2Shape"
+		index = 0
+		texture_diffuse = "hd_handai_gongdian_03_diffuse.dds"
+		texture_normal = "hd_handai_gongdian_03_normal.dds"
+		texture_specular = "hd_handai_gongdian_03_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "hd_handai_gongdian_03_entity"
+	pdxmesh = "hd_handai_gongdian_03_mesh"
+}
+
